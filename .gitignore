@@ -1,0 +1,9 @@
+.netlify/
+node_modules/
+.env*
+artifacts/
+*.log
+*.zip
+*.exe
+*.bin
+*.dll
