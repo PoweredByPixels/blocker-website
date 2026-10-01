@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f \u00e2\u20ac\u201d already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,7 +172,7 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
   }
 }
