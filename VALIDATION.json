@@ -32,5 +32,22 @@
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
   "cookiesAdded": false,
-  "generatedHeroIsGameplayScreenshot": false
+  "generatedHeroIsGameplayScreenshot": false,
+  "localUpdate": {
+    "date": "2026-10-01",
+    "publication": "Local only; not pushed or deployed. Existing live baseline above is unchanged.",
+    "floatingNavigationDesktopAndMobile": true,
+    "floatingDownloadDialogAndEscape": true,
+    "livePublicScoresReadFromLocalPage": true,
+    "publicScoreRowsObserved": 1,
+    "anonymousReadNoSignupOrScoreWrites": true,
+    "backendModified": false,
+    "mobile390x844NoHorizontalOverflow": true,
+    "conceptGalleryEnlargementAndLabels": true,
+    "studioLinksCorrect": true,
+    "browserConsoleNoWarningsOrErrors": true,
+    "staticChecks": "passed",
+    "leaderboardUnitTests": "5 passed",
+    "screenshots": ["artifacts/local-highscores.jpg", "artifacts/local-atmosphere.jpg", "artifacts/local-highscores-mobile.jpg"]
+  }
 }

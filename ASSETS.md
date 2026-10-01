@@ -16,7 +16,19 @@ Final prompt:
 
 > Use case: ads-marketing. Create a wide cinematic 16:9 hero image for the minimalist indie physics game Blocker. A modest elegant wooden tower built entirely from identical small natural oak construction planks with proportions 1:3:15, a few loose planks nearby, on a satin polished cool grey microcement/natural stone floor. Tower on the RIGHT half of composition; LEFT half is a darker muted grey-blue smooth mineral plaster wall with generous clean negative space for website title (do not put text in the image). Unfurnished refined modern alpine apartment, large full height opening on the RIGHT, distant relaxed mountain and trees landscape softly blurred. Low warm summer afternoon sun from right produces believable long precise contact shadows, subtle local reflections under wooden planks, restrained dust in sunbeam. Wood rich natural grain and tiny chamfer edges, realistic scale, tactile miniature desk toy, sophisticated calm architectural photography, lens near floor height, slight depth of field foreground and distant background, tower sharply focused. Cool architectural surfaces, warm wood and sunlight, restrained lighting without blown out whites. No people, no logos, no UI, no lettering, no watermark. This is promotional concept artwork, not a fabricated gameplay screenshot. Output one landscape image.
 
-## Prototype captures
+## Material study — thin wooden slats
+
+`public/assets/concept-wood-detail.png` and its WebP derivative were generated with the built-in image generation tool on 2026-10-01. The user's wooden-piece reference supplied wood grain and chamfer direction only; its printed measurements were not adopted. Target dimensions remain 0.5 × 1 × 13 cm. This is labelled concept artwork, not a game capture.
+
+Generation prompt:
+
+> Create a NEW wide close-up concept artwork, not an edit of the supplied board. Use the supplied image ONLY as a material and small chamfer reference: light untreated beech wood, subtle natural grain, smooth sanded edges. No text from the reference. Three identical extremely slender flat wooden slats in a loose calm overlapping arrangement on a satin pale cool-grey stone floor, cozy architectural afternoon sunlight, soft realistic contact shadows and subtle reflections, macro camera near floor, gentle shallow depth of field, warm honey highlights and cool shadow. Critical dimensions for EACH slat: thickness 0.5 cm, width 1 cm, length 13 cm, thickness:width:length exactly 1:2:26, not chunky Jenga blocks and not broad boards. Main front slat lies horizontally diagonally across image, with long fine longitudinal wood grain and a very thin narrow rectangular end. Other two in middle distance softly blurred. Minimalist editorial product photography, tactile ASMR meditative calm, beautifully sparse with negative space, 3:2 landscape framing. No hands, no people, no writing, no UI, no rulers, no measurement annotations, no logos, no watermarks. This is labelled visual-direction concept artwork for Blocker, not an actual gameplay screenshot.
+
+## Atelier concept
+
+`public/assets/concept-atelier.png` is the user's supplied alpine apartment concept (`codex-clipboard-67ca4072-48e3-4507-90ce-5013f98bce44.png`). It is labelled visual-direction concept art. The WebP derivative only changes encoding, not the content. It is not a gameplay screenshot.
+
+## Actual prototype captures
 
 `prototype-wood` and `prototype-room` are existing Blocker renderer captures (`lookdev-model-beveled.png` and `lookdev-atelier-wide.png`). Captured interface text is omitted; this limitation is disclosed in the gallery. No Unity or player was launched for the website task and no game sources or settings were changed.
 
