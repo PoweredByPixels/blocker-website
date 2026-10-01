@@ -17,11 +17,11 @@ The large hero menu becomes compact floating navigation after leaving the viewpo
 
 ## Public highscores
 
-The Highscores section lazily reads the existing game's public top ten via `get_tower_leaderboard`, using only the publishable key in `public/leaderboard-config.json`. This key is intentionally public, not an admin credential. No website visitor is signed in, given a game identity, or allowed to submit scores. No backend or game changes are required.
+The Highscores section lazily reads the existing game's public top ten via `get_tower_leaderboard`, using only the publishable key in `public/leaderboard-config.json`. This key is intentionally public, not an admin credential. No website visitor is signed in, given a game identity, or allowed to submit scores. The website stays a public read-only table. New game records can additionally store a stable tower; the 3D gallery is available inside the game.
 
 Public rows show nickname, height, blocks and build time; older missing metrics show a dash. Values are rendered as text, never HTML. Timeout, empty, stale and unavailable states are handled. Refresh is throttled, including the server's numeric Retry-After response. Automated tests cover response validation, metrics, anonymous read requests and rate limiting.
 
-The game uses an anonymous device identity; the chosen nickname and best result are public. These are casual, client-reported scores. This does not promise anonymity for a nickname containing personal information. Hosting and database providers still receive ordinary request metadata; the website adds no tracking.
+The game uses an anonymous device identity; the chosen nickname, best result and saved record tower are public. These are casual, client-reported scores. This does not promise anonymity for a nickname containing personal information. Hosting and database providers still receive ordinary request metadata; the website adds no tracking.
 
 ## Deploy
 
@@ -32,7 +32,7 @@ Publishing policy: finish and validate changes locally first. Do not push interm
 ## Images
 
 - `public/assets/concept-hero-v2.webp`: AI-generated promotional concept image, labelled on the page. Built-in image generation tool, not actual gameplay. Original at `concept-hero-v2.png`.
-- `prototype-wood-5f76297.webp`, `prototype-room-5f76297.webp`: current Windows lighting-playtest render captures copied read-only from Blocker's Artifacts. Original PNGs retained unchanged; WebP only changes encoding. Interface is omitted in those captures; noted on page. Older unversioned captures are retained as historical assets.
+- `prototype-wood-28f0f96.webp`, `prototype-room-28f0f96.webp`: current Windows lighting-playtest render captures copied read-only from Blocker's Artifacts. Original PNGs retained unchanged; WebP only changes encoding. Interface is omitted in those captures; noted on page. Older unversioned captures are retained as historical assets.
 - `concept-wood-detail.webp`: AI-generated wood/material study, labelled concept art.
 - `concept-atelier.webp`: user-supplied alpine room concept, labelled visual direction.
 - Inter: local variable font, SIL OFL included under `public/assets/fonts`.
@@ -41,6 +41,6 @@ Hero prompt: wide architectural photograph of an identical-oak-plank tower on th
 
 ## Update the download
 
-The current download is the validated Windows lighting playtest from 2026-10-01, source commit `9c6daf4` (177,009,133 bytes). It includes baked room bounce, light probes, contact shadows and interior-only floor reflections. The ZIP is an immutable GitHub Release asset; earlier releases remain available. Replace release URL/version/size consistently in `public/index.html`, `netlify.toml`, `scripts/serve.mjs`, and `release.json` when a newer verified archive is ready. Upload its `.sha256` alongside it. Never ship profiles, anonymous identity credentials or queued scores.
+The current Windows download is the validated autumn/tower-gallery playtest from 2026-10-01, source commit `28f0f96` (177,228,694 bytes). It includes public stable-tower inspection in the game's Shared Scores, warm autumn lighting, refined shadows and softer interior reflections. Validation: 53 EditMode and 19 PlayMode tests, plus the Windows GPU lookdev/gallery smoke check. The ZIP and checksum are immutable GitHub Release assets. Replace Windows URLs consistently in `public/index.html`, `netlify.toml`, `scripts/serve.mjs` and `release.json`. Never ship profiles, credentials or queued scores.
 
-The download dialog offers two platform cards. macOS is a Universal `.app` ZIP for Apple Silicon and Intel, macOS 12+; its metadata is in `release.json.macOS`, with a stable `/download/macos` redirect. The same GitHub release hosts both ZIPs and checksums. Both platforms use revision `9c6daf4`, including the optimistic collapse/result copy. The bundle and archive are checked, but on-Mac playtesting is pending and the preview is not notarized. Keep that status visible until verified on a real Mac.
+Build and publish Windows by default. Mac updates require an explicit user request. The download dialog retains the previous macOS Universal preview `9c6daf4` on its existing release, for Apple Silicon/Intel and macOS 12+. It does not contain this Windows update. On-Mac testing is pending and the preview is not notarized; this remains visible on the page. Windows and Mac release metadata can deliberately have different tags.

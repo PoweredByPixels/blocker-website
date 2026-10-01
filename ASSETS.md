@@ -30,9 +30,9 @@ Generation prompt:
 
 ## Actual prototype captures
 
-The gallery uses `prototype-wood-5f76297` and `prototype-room-5f76297`, copied read-only from `C:\Users\volke\Projects\Blocker\Artifacts\lookdev-model-beveled.png` and `lookdev-atelier-wide.png`. These are the GPU look-development captures from the shipped Windows lighting playtest, gameplay revision `5f76297`, captured on 2026-10-01 at approximately 12:32 UTC. They show the current room bounce lighting, wood, shadows and interior reflections. Original PNGs are copied unchanged; WebP derivatives preserve the 1280 × 720 frame and only change encoding (quality 90). The versioned URLs avoid stale cached gallery images. Previous `prototype-wood`/`prototype-room` files remain historical assets.
+The gallery uses `prototype-wood-28f0f96` and `prototype-room-28f0f96`, copied unchanged from `C:\Users\volke\Projects\Blocker\Artifacts\lookdev-model-beveled.png` and `lookdev-atelier-wide.png`. They are actual Windows GPU captures from the validated autumn/tower-gallery player, captured on 2026-10-01. Source revision `28f0f96` contains the tested runtime and the opt-in Mac build policy. They show warm autumn sunlight, refined shadows and softer interior reflections. Original PNGs are unchanged; WebP derivatives preserve the 1280 x 720 frame, quality 90. Older versioned captures remain historical assets.
 
-These captures render the game camera without interface text; that limitation and the Windows capture platform are disclosed in the gallery. They are real game-renderer captures, not generated concept art or proof of a macOS runtime test. No Unity or player was launched for this website refresh and no game sources or settings were changed.
+These captures render the actual game camera without interface text; that limitation and the Windows platform are disclosed on the page. They are not generated concept art or evidence of a macOS runtime test. Packaging and this website refresh do not launch Unity or modify the original QFTGN project.
 
 ## Font
 

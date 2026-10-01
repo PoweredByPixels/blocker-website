@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-01-new-beginning",
-  "sourceCommit": "9c6daf4",
+  "tag": "playtest-2026-10-01-autumn-towers",
+  "sourceCommit": "28f0f96",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-01-9c6daf4.zip",
-  "bytes": 177009133,
-  "sha256": "c3e25f8a32f54ef9df1d055a77ed0351582dfa6ce25f4d68afd541253abbea45",
+  "file": "Blocker-Windows-x64-2026-10-01-28f0f96.zip",
+  "bytes": 177228694,
+  "sha256": "70ff6b21d79033f35a63b99c56c2757fad401a0b16056c02617248fc940f39c1",
   "developmentBuild": false,
-  "contains": "Tower prototype with baked room bounce lighting, contact shadows and interior-only floor reflections; optimistic collapse and result messages; work in progress",
+  "contains": "Tower prototype with public stable-tower gallery, warm autumn lighting, refined shadows and softer interior-only reflections; work in progress",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",
