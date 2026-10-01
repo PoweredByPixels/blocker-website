@@ -30,7 +30,9 @@ Generation prompt:
 
 ## Actual prototype captures
 
-`prototype-wood` and `prototype-room` are existing Blocker renderer captures (`lookdev-model-beveled.png` and `lookdev-atelier-wide.png`). Captured interface text is omitted; this limitation is disclosed in the gallery. No Unity or player was launched for the website task and no game sources or settings were changed.
+The gallery uses `prototype-wood-5f76297` and `prototype-room-5f76297`, copied read-only from `C:\Users\volke\Projects\Blocker\Artifacts\lookdev-model-beveled.png` and `lookdev-atelier-wide.png`. These are the GPU look-development captures from the shipped Windows lighting playtest, gameplay revision `5f76297`, captured on 2026-10-01 at approximately 12:32 UTC. They show the current room bounce lighting, wood, shadows and interior reflections. Original PNGs are copied unchanged; WebP derivatives preserve the 1280 × 720 frame and only change encoding (quality 90). The versioned URLs avoid stale cached gallery images. Previous `prototype-wood`/`prototype-room` files remain historical assets.
+
+These captures render the game camera without interface text; that limitation and the Windows capture platform are disclosed in the gallery. They are real game-renderer captures, not generated concept art or proof of a macOS runtime test. No Unity or player was launched for this website refresh and no game sources or settings were changed.
 
 ## Font
 

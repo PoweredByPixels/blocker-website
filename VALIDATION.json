@@ -123,5 +123,40 @@
     "gameBuildSeconds": 50.347,
     "unityExecutionLogStartUtc": "2026-10-01T13:15:07Z",
     "unityExecutionLogEndUtc": "2026-10-01T13:16:50Z"
+  },
+  "screenshotRefresh20261001": {
+    "sourceGameplayCommit": "5f76297",
+    "sourceCapturePlatform": "Windows",
+    "sourceCaptureUtc": "2026-10-01T12:32:38Z",
+    "captures": [
+      {
+        "source": "lookdev-model-beveled.png",
+        "asset": "prototype-wood-5f76297.webp",
+        "sourceSha256": "a5c7f66c29d1d13cb1ffb4c36008195f5c9ff425cd0648f1373d7a53a32021fe",
+        "webpBytes": 78086
+      },
+      {
+        "source": "lookdev-atelier-wide.png",
+        "asset": "prototype-room-5f76297.webp",
+        "sourceSha256": "d56f31333e4edd1973c823df7e10c107fb2e713a524ceda9021b0c5596667419",
+        "webpBytes": 80092
+      }
+    ],
+    "width": 1280,
+    "height": 720,
+    "originalPNGsCopiedUnchanged": true,
+    "webpEncodingQuality": 90,
+    "versionedAssetUrls": true,
+    "realRendererCaptures": true,
+    "interfaceOmittedAndDisclosed": true,
+    "conceptArtSeparate": true,
+    "localDesktopGalleryAndLightbox": true,
+    "localMobile390x844NoOverflow": true,
+    "localMobileRoomLightbox": true,
+    "staticChecks": "passed",
+    "leaderboardTests": "5 passed",
+    "gameSourcesModified": false,
+    "unityOrPlayerLaunched": false,
+    "downloadAssetsUnchanged": true
   }
 }
