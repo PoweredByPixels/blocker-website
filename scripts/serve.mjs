@@ -9,6 +9,6 @@ createServer(async (req,res) => {
   if(path==='/download/windows'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01/Blocker-Windows-x64-2026-10-01-223255f.zip'}).end();return;}
   const file = resolve(root,'.'+(path==='/'?'/index.html':path));
   if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403).end();return;}
-  try {res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(await readFile(file));}
+  try {const body=await readFile(file);res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(body);}
   catch {res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'});res.end(await readFile(resolve(root,'404.html')));}
 }).listen(4196,'127.0.0.1',()=>console.log('Blocker website: http://127.0.0.1:4196'));
