@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f \u00e2\u20ac\u201d already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -158,5 +158,21 @@
     "gameSourcesModified": false,
     "unityOrPlayerLaunched": false,
     "downloadAssetsUnchanged": true
+  },
+  "optimisticCopy20261001": {
+    "sourceCommit": "9c6daf4",
+    "phrase": "EVERY ENDING IS A NEW BEGINNING.",
+    "compactPhrase": "A NEW BEGINNING.",
+    "windowsAndMacRebuilt": true,
+    "runtimeAssembliesTextVerified": true,
+    "oldRuntimePhraseAbsent": true,
+    "localDesktopAndMobileInspected": true,
+    "archiveHashesMatchGitHubAssets": true,
+    "websiteChecks": "Static checks and 5 leaderboard tests passed",
+    "macRuntimeTested": false,
+    "appleNotarized": false,
+    "releaseTag": "playtest-2026-10-01-new-beginning",
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
   }
 }

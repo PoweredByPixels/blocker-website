@@ -1,33 +1,21 @@
-# Blocker — Windows + macOS lighting playtest
+# Blocker — A New Beginning · Windows + macOS playtest
 
-An early Tower-mode prototype: build with wooden planks, find the balance, watch the collapse, and try again. Mouse/keyboard and controller supported. No Steam login required.
+The collapse and Tower result now say **EVERY ENDING IS A NEW BEGINNING.** The compact result dialog says **A NEW BEGINNING.** Building, balancing and trying again remain the heart of this Tower-mode prototype.
 
-## Start
+Extract the complete ZIP. Windows: launch `Blocker.exe` alongside its data folder and DLLs. macOS: open `Blocker.app` and keep its bundle intact. Choose TOWER. Controls and applicable licenses are included.
 
-Extract the entire ZIP into its own directory. Windows: launch `Blocker.exe` and keep `Blocker_Data` and accompanying DLLs alongside it. macOS: open `Blocker.app` and keep the bundle intact. Choose TOWER. Detailed controls are in `START-HERE.txt`.
+Both non-development builds were rebuilt from Unity source revision `9c6daf4` on 2026-10-01. Verified the new text and absence of the previous phrase in both compiled runtime assemblies. Windows and macOS release builds succeeded. Each archived player file was hash-checked and ZIP CRC-checked (184 Windows files; 185 macOS files). The gameplay tests were not rerun for this wording-only change; the previous lighting revision passed 48 EditMode and 18 PlayMode tests.
 
-## Scope
+The existing room bounce lighting, light probes, contact shadows and interior-only floor reflections remain. Room indirect lighting is baked; new towers do not recalculate indirect color bleeding. Gallery images are real captures of that lighting revision, with the interface omitted; concept art is AI-generated and labelled.
 
-Windows x64 and macOS Universal (Intel x64 + Apple Silicon, macOS 12+), non-development builds. Tower mode only. Local records work offline; shared scores use an anonymous device identity and nickname. No historical PB import. Prototype visuals, complex tower stability and large last-mile performance are still being refined.
+macOS Universal supports Intel x64 and Apple Silicon, macOS 12+. Executable architecture slices and Unix permissions were verified. On-device Mac testing is still pending; this preview is not Apple Developer ID signed/notarized. [Apple's macOS opening help](https://support.apple.com/en-us/102445).
 
-This update adds baked room bounce lighting, 871 light probes, cool window skylight, cast/contact shadows and floor reflections restricted to interior objects. The name prompt now distinguishes an unconfirmed default `Builder` profile from a chosen nickname. Slow motion limits physics catch-up so the collapse can be watched before the stable-tower review.
+No device identities, pending scores, preferences, fixtures or environment files are included. Local records work offline; optional shared scores use an anonymous identity and a chosen name.
 
-Lighting remains a prototype: room bounce is baked; new towers do not recalculate indirect color bleeding between their pieces. Screen-space contact shadows have normal visibility limits. The temporary outside trees still need art refinement.
+## Archives
 
-## Provenance
+Windows: `Blocker-Windows-x64-2026-10-01-9c6daf4.zip` — 177,009,133 bytes.
+SHA256: `c3e25f8a32f54ef9df1d055a77ed0351582dfa6ce25f4d68afd541253abbea45`.
 
-The archive is the already validated build from 2026-10-01, source revision `5f76297`; no additional Unity build was run for website publication. Validation: 48 EditMode tests and 18 PlayMode tests passed, plus GPU look-development checks of room lighting, local reflections and collapse slow motion. Website concept art is AI-generated and labelled; gallery images are real prototype captures. AI tools assist game code and some assets. Applicable font and surface licenses ship with the download.
-
-Archive: `Blocker-Windows-x64-2026-10-01-5f76297.zip` (177,009,182 bytes).
-
-SHA256: `ec36ca1a4c2a3f5361790aa9291e06ab6b2a7e68a2150ec6a32380be7ded47e2`.
-
-184 player files; ZIP CRC and hash checked before upload. No device-identity, pending score, preference, fixture or environment files are included.
-
-## macOS preview
-
-Built from the same gameplay and lighting as Windows revision `5f76297`, with macOS build tooling revision `f01b40d`. Unity's Universal Mono release build succeeded and Metal shaders compiled. Verified the app identity, minimum OS, Intel x64 + arm64 executable/player slices, Unix executable permissions, all 185 app files and ZIP CRC/hash. No on-Mac runtime test has been performed; a friend playtest is planned. The preview is not Apple Developer ID signed/notarized. See [Apple's macOS opening help](https://support.apple.com/en-us/102445) if macOS refuses to open it.
-
-Mac archive: `Blocker-macOS-Universal-2026-10-01-f01b40d.zip` (184,555,177 bytes).
-
-SHA256: `94baf9a36ac96e13216e6e7d0ff120b0967e81b679a93517e9e24386aa9fdb35`.
+macOS: `Blocker-macOS-Universal-2026-10-01-9c6daf4.zip` — 184,555,174 bytes.
+SHA256: `f1174d945f2dfa77de6209f5bc983d8fdb98025edb447ca2bdab505163a841a4`.

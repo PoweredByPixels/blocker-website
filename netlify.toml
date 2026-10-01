@@ -7,14 +7,14 @@
 
 [[redirects]]
   from = "/download/windows"
-  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-lighting/Blocker-Windows-x64-2026-10-01-5f76297.zip"
+  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-new-beginning/Blocker-Windows-x64-2026-10-01-9c6daf4.zip"
   status = 302
   force = true
 
 # Platform-specific download URLs remain stable between release updates.
 [[redirects]]
   from = "/download/macos"
-  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-lighting/Blocker-macOS-Universal-2026-10-01-f01b40d.zip"
+  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-new-beginning/Blocker-macOS-Universal-2026-10-01-9c6daf4.zip"
   status = 302
   force = true
 
