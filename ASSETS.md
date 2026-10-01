@@ -30,10 +30,14 @@ Generation prompt:
 
 ## Actual prototype captures
 
-The gallery uses `prototype-wood-28f0f96` and `prototype-room-28f0f96`, copied unchanged from `C:\Users\volke\Projects\Blocker\Artifacts\lookdev-model-beveled.png` and `lookdev-atelier-wide.png`. They are actual Windows GPU captures from the validated autumn/tower-gallery player, captured on 2026-10-01. Source revision `28f0f96` contains the tested runtime and the opt-in Mac build policy. They show warm autumn sunlight, refined shadows and softer interior reflections. Original PNGs are unchanged; WebP derivatives preserve the 1280 x 720 frame, quality 90. Older versioned captures remain historical assets.
+The previous gallery used `prototype-wood-28f0f96` and `prototype-room-28f0f96`, copied unchanged from `C:\Users\volke\Projects\Blocker\Artifacts\lookdev-model-beveled.png` and `lookdev-atelier-wide.png`. They are actual Windows GPU captures from the validated autumn/tower-gallery player, captured on 2026-10-01. Source revision `28f0f96` contains the tested runtime and the opt-in Mac build policy. They show warm autumn sunlight, refined shadows and softer interior reflections. Original PNGs are unchanged; WebP derivatives preserve the 1280 x 720 frame, quality 90. Older versioned captures remain historical assets.
 
 These captures render the actual game camera without interface text; that limitation and the Windows platform are disclosed on the page. They are not generated concept art or evidence of a macOS runtime test. Packaging and this website refresh do not launch Unity or modify the original QFTGN project.
 
 ## Font
 
 Inter variable font, copied from the existing game font assets. SIL Open Font License: `public/assets/fonts/OFL.txt`.
+
+## User gameplay gallery, 2026-10-01
+
+Three user-approved tower gameplay screenshots replace the previous render-only gallery. Sources: `codex-clipboard-7d363b51-0b0c-44d4-8443-5791717f70d9.png`, `codex-clipboard-e418f257-17eb-4ff6-b034-47f5f44d939d.png`, `codex-clipboard-0faf768f-9902-419c-98bf-12663c7e34bf.png`. Originals retained unchanged as `gameplay-tower-2026-10-01-01/02/03.png`; same-size WebP derivatives are encoding-only, quality 90. Actual gameplay with interface visible, captured before the final floor-glare correction. No AI alteration or UI removal.

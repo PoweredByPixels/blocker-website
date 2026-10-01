@@ -32,7 +32,7 @@ Publishing policy: finish and validate changes locally first. Do not push interm
 ## Images
 
 - `public/assets/concept-hero-v2.webp`: AI-generated promotional concept image, labelled on the page. Built-in image generation tool, not actual gameplay. Original at `concept-hero-v2.png`.
-- `prototype-wood-28f0f96.webp`, `prototype-room-28f0f96.webp`: current Windows lighting-playtest render captures copied read-only from Blocker's Artifacts. Original PNGs retained unchanged; WebP only changes encoding. Interface is omitted in those captures; noted on page. Older unversioned captures are retained as historical assets.
+- `gameplay-tower-2026-10-01-01/02/03.webp`: three user-approved actual gameplay screenshots with visible UI, same-size encoding derivatives of unchanged PNG originals. Captions disclose capture before the final floor-glare correction. Earlier render captures remain historical assets.
 - `concept-wood-detail.webp`: AI-generated wood/material study, labelled concept art.
 - `concept-atelier.webp`: user-supplied alpine room concept, labelled visual direction.
 - Inter: local variable font, SIL OFL included under `public/assets/fonts`.
