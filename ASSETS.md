@@ -1,6 +1,14 @@
 # Asset provenance
 
-## Concept hero
+## Current concept hero — v2
+
+`public/assets/concept-hero-v2.png` and its compressed WebP derivative replace the original illustration. Edited with the built-in image generation tool on 2026-10-01, using the original hero as edit target and the user's chamfered wooden-piece image as a material reference. Target dimensions: thickness 0.5 cm, width 1 cm, length 13 cm (1:2:26). These are visual targets for generated concept art, not a measurement guarantee or a change to game physics. The original asset is retained unchanged.
+
+Edit prompt:
+
+> Edit target: Image 1 is our current website hero. Image 2 is a supporting reference for pale natural wood, tiny edge chamfers and flat plank construction, not for its background or text. Change ONLY the wooden building pieces and their physically corresponding shadows/reflections. Preserve Image 1's exact wide 16:9 composition, camera framing, darker grey-blue left wall with huge empty typography space, right alpine window and mountains, warm late afternoon lighting and quiet architectural mood. Critical correction: our pieces are THIN, LONG wooden slats, each 13 cm long, 1 cm wide, only 0.5 cm thick. Thickness : width : length = 1 : 2 : 26. Every piece must visibly have these extremely slender proportions. They must not look like thick Jenga bricks. Rebuild the tower on the right from many of these identical slender flat chamfered slats, perhaps approximately 70-100 layers, paired perpendicular opposing rails per alternating layer, yielding a delicate airy hollow lattice tower of comparable on-screen height to the old tower. Visible top/bottom face of each horizontal slat long and narrow, its edge only half as thick as its narrow width. Smaller hollow center than footprint, credible overlapping contacts and equilibrium, no unsupported floating rails. All loose foreground pieces must also be long narrow flat slats with the same 1:2:26 proportions, not fat short rectangular blocks. Natural light honey oak or beech, grain along the length, small sanded bevel, realistic soft wood sheen. Keep room unchanged. No labels, text, watermarks, UI, extra furniture or people. The reference lettering must not appear. This remains concept artwork rather than a gameplay screenshot.
+
+## Original concept hero — v1 (retained)
 
 Generated with the built-in image generation tool on 2026-10-01. It is promotional concept art, not a gameplay screenshot, and is labelled accordingly on the website. PNG retained; WebP is a format-compressed derivative for the page.
 

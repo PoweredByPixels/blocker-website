@@ -19,7 +19,7 @@ Netlify: import the GitHub repository, production branch `main`, build `npm run 
 
 ## Images
 
-- `public/assets/concept-hero.webp`: AI-generated promotional concept image, labelled on the page. Built-in image generation tool, not actual gameplay. Original at `concept-hero.png`.
+- `public/assets/concept-hero-v2.webp`: AI-generated promotional concept image, labelled on the page. Built-in image generation tool, not actual gameplay. Original at `concept-hero-v2.png`.
 - `prototype-wood.webp`, `prototype-room.webp`: actual pre-existing prototype render captures copied read-only from Blocker's Artifacts. Interface text is omitted in those captures; noted on page.
 - Inter: local variable font, SIL OFL included under `public/assets/fonts`.
 
