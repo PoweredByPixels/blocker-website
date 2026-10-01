@@ -6,7 +6,7 @@ const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8
 createServer(async (req,res) => {
   let path;
   try {path = decodeURIComponent(new URL(req.url,'http://localhost').pathname);} catch {res.writeHead(400).end();return;}
-  if(path==='/download/windows'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-slate-walls/Blocker-Windows-x64-2026-10-01-9db977c.zip'}).end();return;}
+  if(path==='/download/windows'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-02-evening-polish/Blocker-Windows-x64-2026-10-02-41ba78b.zip'}).end();return;}
   if(path==='/download/macos'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-new-beginning/Blocker-macOS-Universal-2026-10-01-9c6daf4.zip'}).end();return;}
   const file = resolve(root,'.'+(path==='/'?'/index.html':path));
   if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403).end();return;}

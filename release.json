@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-01-slate-walls",
-  "sourceCommit": "9db977c",
+  "tag": "playtest-2026-10-02-evening-polish",
+  "sourceCommit": "41ba78b",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-01-9db977c.zip",
-  "bytes": 194889299,
-  "sha256": "d0e2e091425d2009cf9ac33a4e568ebde14c5e9ca2f0d04b7fae1e4ce6b75ee3",
+  "file": "Blocker-Windows-x64-2026-10-02-41ba78b.zip",
+  "bytes": 194891304,
+  "sha256": "26a6b692e1158344dc719e4b5542494569d6ba7d14c76cd6c8b5dd6877cdabab",
   "developmentBuild": false,
-  "contains": "Tower gallery/autumn playtest plus optional Poly Haven slate wall finish in Settings > Display; work in progress",
+  "contains": "Tower playtest: F1 clean screenshot view, one-shot carton tool, hidden cinematic cartons and partial orbit, frame-rate local reflections, removed floor sun glare; slate wall and tower gallery retained",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",
