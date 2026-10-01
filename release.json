@@ -1,10 +1,10 @@
 {
-  "tag": "playtest-2026-10-01",
-  "sourceCommit": "223255f",
+  "tag": "playtest-2026-10-01-lighting",
+  "sourceCommit": "5f76297",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-01-223255f.zip",
-  "bytes": 143746176,
-  "sha256": "5d003abce35e8886106f6aece56ac407141c56b8a36b2f1d1e1d5771a21d0b6e",
+  "file": "Blocker-Windows-x64-2026-10-01-5f76297.zip",
+  "bytes": 177009182,
+  "sha256": "ec36ca1a4c2a3f5361790aa9291e06ab6b2a7e68a2150ec6a32380be7ded47e2",
   "developmentBuild": false,
-  "contains": "Tower prototype; work in progress"
+  "contains": "Tower prototype with baked room bounce lighting, light probes, contact shadows and interior-only floor reflections; work in progress"
 }

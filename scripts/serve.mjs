@@ -6,7 +6,7 @@ const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8
 createServer(async (req,res) => {
   let path;
   try {path = decodeURIComponent(new URL(req.url,'http://localhost').pathname);} catch {res.writeHead(400).end();return;}
-  if(path==='/download/windows'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01/Blocker-Windows-x64-2026-10-01-223255f.zip'}).end();return;}
+  if(path==='/download/windows'){res.writeHead(302,{Location:'https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-lighting/Blocker-Windows-x64-2026-10-01-5f76297.zip'}).end();return;}
   const file = resolve(root,'.'+(path==='/'?'/index.html':path));
   if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403).end();return;}
   try {const body=await readFile(file);res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(body);}

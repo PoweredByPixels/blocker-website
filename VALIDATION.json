@@ -3,7 +3,12 @@
   "site": "https://blocker-poweredbypixels.netlify.app",
   "repository": "https://github.com/PoweredByPixels/blocker-website",
   "netlifySiteId": "820c06da-57d1-4000-854f-ed54688df6f7",
-  "continuousDeployment": {"provider": "github", "branch": "main", "build": "npm run build", "publish": "public"},
+  "continuousDeployment": {
+    "provider": "github",
+    "branch": "main",
+    "build": "npm run build",
+    "publish": "public"
+  },
   "localPreview": "http://127.0.0.1:4196",
   "checks": {
     "staticReferencesAndIds": true,
@@ -26,7 +31,11 @@
     "localArchiveSHA256": true,
     "archiveNoPlayerProfileFiles": true
   },
-  "screenshots": ["artifacts/live-desktop.jpg", "artifacts/live-mobile.jpg", "artifacts/live-download.jpg"],
+  "screenshots": [
+    "artifacts/live-desktop.jpg",
+    "artifacts/live-mobile.jpg",
+    "artifacts/live-download.jpg"
+  ],
   "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
@@ -48,6 +57,30 @@
     "browserConsoleNoWarningsOrErrors": true,
     "staticChecks": "passed",
     "leaderboardUnitTests": "5 passed",
-    "screenshots": ["artifacts/local-highscores.jpg", "artifacts/local-atmosphere.jpg", "artifacts/local-highscores-mobile.jpg"]
+    "screenshots": [
+      "artifacts/local-highscores.jpg",
+      "artifacts/local-atmosphere.jpg",
+      "artifacts/local-highscores-mobile.jpg"
+    ]
+  },
+  "lightingReleaseUpdate": {
+    "date": "2026-10-01",
+    "sourceCommit": "5f76297",
+    "tag": "playtest-2026-10-01-lighting",
+    "file": "Blocker-Windows-x64-2026-10-01-5f76297.zip",
+    "bytes": 177009182,
+    "sha256": "ec36ca1a4c2a3f5361790aa9291e06ab6b2a7e68a2150ec6a32380be7ded47e2",
+    "publication": "Prepared; publication pending",
+    "staticChecks": "passed",
+    "leaderboardTests": "5 passed",
+    "allDownloadReferencesMatch": true,
+    "desktopDownloadDialog": true,
+    "mobile390x844DialogFitsViewport": true,
+    "mobileNoHorizontalOverflow": true,
+    "escapeRestoresFocus": true,
+    "gameTests": "48 EditMode and 18 PlayMode passed in the main game task",
+    "gameSourcesModified": false,
+    "unityOrPlayerLaunched": false,
+    "previousReleasePreserved": true
   }
 }

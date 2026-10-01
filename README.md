@@ -41,4 +41,4 @@ Hero prompt: wide architectural photograph of an identical-oak-plank tower on th
 
 ## Update the download
 
-The initial download is the validated Windows playtest from 2026-10-01, source commit `223255f`. It does not claim to include work still in progress in the main game thread. The ZIP is an immutable GitHub Release asset. Replace release URL/version/size consistently in `public/index.html`, `netlify.toml`, `scripts/serve.mjs`, and `release.json` when a newer verified archive is ready. Upload its `.sha256` alongside it. Never ship profiles, anonymous identity credentials or queued scores.
+The current download is the validated Windows lighting playtest from 2026-10-01, source commit `5f76297` (177,009,182 bytes). It includes baked room bounce, light probes, contact shadows and interior-only floor reflections. The ZIP is an immutable GitHub Release asset; earlier releases remain available. Replace release URL/version/size consistently in `public/index.html`, `netlify.toml`, `scripts/serve.mjs`, and `release.json` when a newer verified archive is ready. Upload its `.sha256` alongside it. Never ship profiles, anonymous identity credentials or queued scores.
