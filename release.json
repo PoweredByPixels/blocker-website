@@ -6,5 +6,22 @@
   "bytes": 177009182,
   "sha256": "ec36ca1a4c2a3f5361790aa9291e06ab6b2a7e68a2150ec6a32380be7ded47e2",
   "developmentBuild": false,
-  "contains": "Tower prototype with baked room bounce lighting, light probes, contact shadows and interior-only floor reflections; work in progress"
+  "contains": "Tower prototype with baked room bounce lighting, light probes, contact shadows and interior-only floor reflections; work in progress",
+  "macOS": {
+    "tag": "playtest-2026-10-01-lighting",
+    "sourceCommit": "f01b40d",
+    "gameplaySourceCommit": "5f76297",
+    "platform": "macOS Universal",
+    "architectures": [
+      "x86_64",
+      "arm64"
+    ],
+    "minimumMacOS": "12.0",
+    "file": "Blocker-macOS-Universal-2026-10-01-f01b40d.zip",
+    "bytes": 184555177,
+    "sha256": "94baf9a36ac96e13216e6e7d0ff120b0967e81b679a93517e9e24386aa9fdb35",
+    "developmentBuild": false,
+    "macRuntimeTested": false,
+    "appleNotarized": false
+  }
 }

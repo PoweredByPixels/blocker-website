@@ -11,6 +11,13 @@
   status = 302
   force = true
 
+# Platform-specific download URLs remain stable between release updates.
+[[redirects]]
+  from = "/download/macos"
+  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-01-lighting/Blocker-macOS-Universal-2026-10-01-f01b40d.zip"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
