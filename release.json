@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-02-stairwell",
-  "sourceCommit": "a81ad78",
+  "tag": "playtest-2026-10-02-supply-and-settling",
+  "sourceCommit": "c9e5f76",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-02-a81ad78.zip",
-  "bytes": 195184789,
-  "sha256": "f5a890a4cd4d7377a4a8535e65eec556063e17775a44b7af41c2ce1dec8c4cfc",
+  "file": "Blocker-Windows-x64-2026-10-02-c9e5f76.zip",
+  "bytes": 195186380,
+  "sha256": "0738b3e6ea6d91436842e19b3c4c37c43f5746207dfa66bd2fd470b0c8d18d61",
   "developmentBuild": false,
-  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",
