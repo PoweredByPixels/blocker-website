@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f \u2014 already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,7 +172,50 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
+  },
+  "towerSave20261002": {
+    "sourceCommit": "f2f6705",
+    "windowsReleaseTag": "playtest-2026-10-02-tower-save",
+    "editModePassed": 58,
+    "playModePassed": 28,
+    "windowsLookdevPassed": true,
+    "lightingRevision": 10,
+    "vSyncFrameCapsMeasured": [
+      29.94,
+      59.21
+    ],
+    "zipBytes": 194861053,
+    "zipSha256": "5f28fd17a3b767aa6318069b339e250851970377ddc9f975f96995f4a341b93f",
+    "archivedPlayerFilesVerified": 184,
+    "macRebuilt": false,
+    "continuedRoundsOnlineUpload": false,
+    "screenshots": [
+      {
+        "source": "lookdev-model-beveled.png",
+        "asset": "prototype-wood-f2f6705.webp",
+        "sourceSha256": "9a96dd6a2260dc246371b339be08b86e4bf1e02dde65d129ad8ccdfe3a14c794",
+        "bytes": 71598
+      },
+      {
+        "source": "lookdev-room-gi-on.png",
+        "asset": "prototype-room-f2f6705.webp",
+        "sourceSha256": "392c4e9ab78950ce27dfde07cab206c43896ebbc27b40cd0c956ce1f6b3f0829",
+        "bytes": 90066
+      }
+    ],
+    "uiHiddenWindowCapturesBlack": true,
+    "websiteChecks": "Static checks and 5 leaderboard tests passed",
+    "desktopAndMobileInspected": true,
+    "mobile390x844NoHorizontalOverflow": true,
+    "downloadDialogFitsAndScrolls": true,
+    "escapeRestoresFocus": true,
+    "newCaptureLightboxPassed": true,
+    "browserWarningsOrErrors": [],
+    "sourcePrivateRepositoryPushed": true,
+    "githubReleaseUploaded": true,
+    "publishedAssetBytesMatch": true,
+    "publishedDigestMatches": true
   }
 }
