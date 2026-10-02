@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-02-tower-save",
-  "sourceCommit": "f2f6705",
+  "tag": "playtest-2026-10-02-calm-atelier",
+  "sourceCommit": "e12c818",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-02-f2f6705.zip",
-  "bytes": 194861053,
-  "sha256": "5f28fd17a3b767aa6318069b339e250851970377ddc9f975f96995f4a341b93f",
+  "file": "Blocker-Windows-x64-2026-10-02-e12c818.zip",
+  "bytes": 195022858,
+  "sha256": "a1f819ed0a43cd746685351ada7e847f441e7afc27c297442720615f8e0deb1f",
   "developmentBuild": false,
-  "contains": "Tower autosave and Continue, physical shelf crates, build boundaries and contact pads, stable TGS physics, World finish settings, smooth glass, baked indirect lighting",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",

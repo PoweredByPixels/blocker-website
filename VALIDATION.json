@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f \u2014 already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,8 +172,8 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
   },
   "towerSave20261002": {
     "sourceCommit": "f2f6705",
@@ -217,5 +217,85 @@
     "githubReleaseUploaded": true,
     "publishedAssetBytesMatch": true,
     "publishedDigestMatches": true
+  },
+  "calmAtelier20261002": {
+    "startedUtc": "2026-10-02T13:09:34Z",
+    "validatedUtc": "2026-10-02T14:20:45.145328+00:00",
+    "sourceAtStart": "f2f6705",
+    "lightingRevision": 13,
+    "editModePassed": 58,
+    "playModePassed": 30,
+    "windowsBuildPassed": true,
+    "standaloneLookdevPassed": true,
+    "bakedLightmaps": 1,
+    "staticShadowMask": true,
+    "lightProbes": 859,
+    "indirectScale": 1.35,
+    "shadedProbeEnergyMin": 0.04237,
+    "probeEnergyMax": 7.18914,
+    "decorativePieces": 65,
+    "decorativePiecesSleeping": 65,
+    "crateHollowCollisionWalls": 5,
+    "crateWoodSupportRejected": true,
+    "shiftSprintMetersPerSecond": 2.8,
+    "pickupRangeMeters": 2.4,
+    "floorShaderAndReflectionSettingsChanged": false,
+    "vSyncMeasured30": 29.95,
+    "vSyncMeasured60": 58.97,
+    "shadowFallbackFixedCameraMeanAbsoluteRgbDifference": [
+      0.002593315972222222,
+      0.0018120659722222223,
+      0.0009147135416666666
+    ],
+    "resultUiReworked": true,
+    "uiTypographyManuallyVerified": false,
+    "worldRendersVisuallyReviewed": true,
+    "macRebuilt": false,
+    "originalProjectWritten": false,
+    "ownUnitySlotReleased": true,
+    "foliageTechnique": "subtle wall-only diffuse projection, excluded from meta GI bake",
+    "temporaryTreeMeshRetained": true,
+    "knownLimitations": [
+      "Full hidden-window IMGUI capture unavailable; result/name UI requires user-client inspection",
+      "Continued rounds retain local records but do not resume server upload tickets",
+      "No realtime room color bleeding from placed wood"
+    ],
+    "sourceCommit": "e12c818",
+    "tag": "playtest-2026-10-02-calm-atelier",
+    "zipBytes": 195022858,
+    "zipSha256": "a1f819ed0a43cd746685351ada7e847f441e7afc27c297442720615f8e0deb1f",
+    "archivedPlayerFilesVerified": 184,
+    "screenshots": [
+      {
+        "source": "lookdev-model-beveled.png",
+        "asset": "prototype-wood-e12c818.webp",
+        "sourceSha256": "52a10094a0b9ee981f622a403bdfec770eea7d2ac63012817df5b0bb975392be",
+        "bytes": 72412
+      },
+      {
+        "source": "lookdev-room-gi-on.png",
+        "asset": "prototype-room-e12c818.webp",
+        "sourceSha256": "74e5fe9e03ea0f48b780640cb188ca64d745df7ce6d2ed81f6a2c4068c4e303a",
+        "bytes": 66560
+      },
+      {
+        "source": "lookdev-atelier-creative.png",
+        "asset": "prototype-calm-e12c818.webp",
+        "sourceSha256": "07e9e1db7d37cf09242d8f7a4e7ccc6c669518d7301051bcb8555e2e6b2d0b46",
+        "bytes": 47326
+      }
+    ],
+    "websiteChecks": "Static checks and 5 leaderboard tests passed",
+    "desktopAndMobileInspected": true,
+    "mobile390x844NoHorizontalOverflow": true,
+    "downloadDialogFitsAndScrolls": true,
+    "escapeRestoresFocus": true,
+    "newCaptureLightboxPassed": true,
+    "browserWarningsOrErrors": [],
+    "sourcePrivateRepositoryPushed": true,
+    "githubReleaseUploaded": true,
+    "publishedAssetBytesMatch": true,
+    "publishedDigestMatches": true,
+    "readyToPublishUtc": "2026-10-02T14:28:15.673024+00:00"
   }
 }

@@ -1,26 +1,27 @@
-# Blocker — Tower Save & Continue · Windows playtest
+# Blocker — Calm Atelier · Windows playtest
 
-The Windows playtest now saves your active Tower automatically on exit. Choose **TOWER → CONTINUE** to return to it, or **NEW GAME** to start again. The main menu shows your saved construction instead of the wooden rain.
+Warm mineral plaster returns to the window architecture and alcoves. Stone is reserved for two calmer accent walls. Three trees now stand near the windows, while subtle soft foliage shading stays on the walls and the central floor remains quiet.
 
-- Take one of 18 textured shelf crates with **E / controller X**, place it, stack it and step up. Placing a crate returns the tool to wood.
-- Separate contact pads clarify where a block rests. The normally invisible rectangular building area shows only an exceeded edge when a placement is outside it.
-- Taller stacks settle with revised TGS physics. Pieces remain physical and can topple; there is no hidden support or glue.
-- **WORLD** settings group wood, wall and floor. New profiles default to Slate Stone, Polished Concrete and Auto text color.
-- Smoother rounded glass panels, quieter menu rain without timed removal, reduced haze and subtler local floor reflections. Baked room bounce light and light probes improve the dark corner.
-- **GLOBAL HIGHSCORES**, an editable welcome name, and a VSync-compatible frame cap.
+- Warm-neutral daylight, six-bounce baked GI, 859 light probes and baked static shadow masks retain room shadows at every camera distance. Dynamic wooden blocks keep crisp realtime cast shadows.
+- The ceiling has its own matte finish; black tracks remain black. Normal building gameplay has no depth of field. Floor material and restrained local reflection settings are unchanged.
+- Open crates use a bottom and four physical walls, with no invisible lid. Wooden blocks cannot be placed on them; crates still stack and work as steps. Aim at a shelf crate and press **E / controller X** to pick it up from up to 2.4 m away.
+- **Shift + WASD** walks faster. The decorative spilled pile is pre-simulated until all 65 pieces sleep, then ships as fixed decoration.
+- The welcome name stays on one line and entry is limited to 24 characters.
+- Compact result panels keep the tower central: **THIS RUN**, height, snapshot time / blocks and **YOUR BEST** are separate. **RETRY** is primary; a small leaderboard retains your own row and opens saved towers.
+- Existing Tower autosave / Continue, build-area limits, contact pads, online highscores and World finishes remain.
 
-Extract the complete ZIP and launch **Blocker.exe** with its data folder and DLLs alongside it. Controls, build manifest and applicable licenses are included. F1 hides the interface and preview block for screenshots.
+Extract the complete ZIP and launch **Blocker.exe** with its data folder and DLLs alongside it. F1 hides the interface and cursor block for screenshots. Controls, a file manifest and applicable licenses are included.
 
 ## Validation
 
-Unity 6000.5.5f1, source **f2f6705**. **58/58 EditMode and 28/28 PlayMode tests passed**. Windows release build and standalone renderer checks passed; 30 alternating layers / 60 blocks reached rest and responded to a physical impulse. With VSync enabled, measured 29.94 / 59.21 FPS at 30 / 60 caps. World renders and GPU glass inspected. Full hidden-window UI captures were black, so final UI interaction remains a user playtest item.
+Unity 6000.5.5f1, source **e12c818**. **58/58 EditMode and 30/30 PlayMode tests passed**. Windows release build and standalone GPU review passed. Shader GI acceptance checks the opaque meta pass and indirect light even in shaded probes. Fixed-camera renders retain the same room occlusion when realtime shadow distance is reduced. With VSync enabled, 30 / 60 caps measured 29.95 / 58.97 FPS. Full hidden-window IMGUI captures are unavailable, so final text layout and interaction remain user-client playtest items.
 
-Continued rounds keep their local best but currently do not upload a new online score after restart because the original server run ticket is not persisted. Fresh rounds retain the existing anonymous-auth highscore flow. Dynamic towers receive indirect room light through probes; they do not rebake room color bleeding.
+Foliage shading is a subtle wall-only projected approximation. The existing temporary tree mesh is retained; this lighting/material pass does not claim to match the reference photograph exactly. Dynamic wood samples baked room probes and does not rebake room color bleeding. Continued rounds retain their local best but cannot resume the original server upload ticket after restart; new rounds retain the anonymous highscore flow.
 
 ## Download
 
-Windows x64: **Blocker-Windows-x64-2026-10-02-f2f6705.zip** — **194,861,053 bytes**.
-SHA256: `5f28fd17a3b767aa6318069b339e250851970377ddc9f975f96995f4a341b93f`.
-Every one of the 184 archived player files was hash-checked and ZIP CRC-checked. No profiles, identities, pending scores or secrets are included.
+Windows x64: **Blocker-Windows-x64-2026-10-02-e12c818.zip** — **195,022,858 bytes**.
+SHA256: `a1f819ed0a43cd746685351ada7e847f441e7afc27c297442720615f8e0deb1f`.
+All 184 archived player files were hash-checked and ZIP CRC-checked. Player profiles, identities and pending scores are not included.
 
-The existing macOS Universal download remains the **01 Oct preview, 9c6daf4**. It was not rebuilt with this update. Mac device testing is pending; that preview is not notarized.
+The macOS download remains the **01 Oct preview, 9c6daf4**. No Mac build was requested for this update. That existing preview is not notarized and device testing is pending.
