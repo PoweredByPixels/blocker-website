@@ -343,5 +343,29 @@
     "newCaptureLightboxPassed": true,
     "mobile390x844NoHorizontalOverflow": true,
     "githubReleaseUploaded": true
+  },
+  "heightModesAndPlacement20261003": {
+    "sourceCommit": "203c92a",
+    "tag": "playtest-2026-10-03-height-modes",
+    "editModePassed": 68,
+    "playModePassed": 46,
+    "windowsReleaseBuildPassed": true,
+    "standaloneGpuLookdevPassed": true,
+    "playerFilesVerified": 184,
+    "stanceKeys": "Q/E; D-Pad down/up",
+    "woodPickup": "F/X",
+    "crateInputPaused": true,
+    "offsetResetOnOrientation": true,
+    "stanceSaveAndLegacyCompatibility": true,
+    "lowerGapPlacementRegressionsPassed": true,
+    "menuHoverAndSideRails": true,
+    "macRebuilt": false,
+    "subjectiveStanceFeelManuallyVerified": false,
+    "nativeMenuHoverManuallyVerified": false,
+    "bytes": 195189435,
+    "sha256": "347848b7ed929756aba9fa7730092282080f20f9454897b0009e443f053c2816",
+    "websiteChecksPassed": true,
+    "desktopAndMobileControlsInspected": true,
+    "mobile390x844NoHorizontalOverflow": true
   }
 }
