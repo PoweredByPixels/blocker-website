@@ -316,5 +316,32 @@
     "desktopAndMobileInspected": true,
     "mobile390x844NoHorizontalOverflow": true,
     "githubReleaseUploaded": true
+  },
+  "backgroundStairwell20261002": {
+    "sourceCommit": "a81ad78",
+    "tag": "playtest-2026-10-02-stairwell",
+    "bytes": 195184789,
+    "sha256": "f5a890a4cd4d7377a4a8535e65eec556063e17775a44b7af41c2ce1dec8c4cfc",
+    "playerFilesVerified": 184,
+    "editModePassed": 62,
+    "lightingRevision": 15,
+    "lightmaps": 1,
+    "probes": 859,
+    "ascendingCeiling": true,
+    "headroomAbove2point1Meters": true,
+    "cleanFrameJoins": true,
+    "invisibleEntryBarrier": true,
+    "windowsBuildPassed": true,
+    "standaloneGpuLookdevPassed": true,
+    "worldRendersVisuallyReviewed": true,
+    "manualWalkthroughVerified": false,
+    "macRebuilt": false,
+    "screenshot": "prototype-stairwell-a81ad78.webp",
+    "screenshotSourceSha256": "2f0cd31495226f7d27ec82c3754d114ff170cf6f4d261d7cc45d72d07d7b1c30",
+    "websiteChecksPassed": true,
+    "desktopAndMobileInspected": true,
+    "newCaptureLightboxPassed": true,
+    "mobile390x844NoHorizontalOverflow": true,
+    "githubReleaseUploaded": true
   }
 }

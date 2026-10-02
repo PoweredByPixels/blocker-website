@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-02-calm-text",
-  "sourceCommit": "9dc3e18",
+  "tag": "playtest-2026-10-02-stairwell",
+  "sourceCommit": "a81ad78",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-02-9dc3e18.zip",
-  "bytes": 195023430,
-  "sha256": "4c463a43a1080d82d60b0b9780b3f4b05e1886f9bc4f6b34ea4116eeb2699950",
+  "file": "Blocker-Windows-x64-2026-10-02-a81ad78.zip",
+  "bytes": 195184789,
+  "sha256": "f5a890a4cd4d7377a4a8535e65eec556063e17775a44b7af41c2ce1dec8c4cfc",
   "developmentBuild": false,
-  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",
