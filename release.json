@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-02-supply-and-settling",
-  "sourceCommit": "c9e5f76",
+  "tag": "playtest-2026-10-02-collapse-playback",
+  "sourceCommit": "e79dfcd",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-02-c9e5f76.zip",
-  "bytes": 195186380,
-  "sha256": "0738b3e6ea6d91436842e19b3c4c37c43f5746207dfa66bd2fd470b0c8d18d61",
+  "file": "Blocker-Windows-x64-2026-10-02-e79dfcd.zip",
+  "bytes": 195187689,
+  "sha256": "d6bfdd73d9fe906d625efbdeffe91fdc97eeeddfdd3077f999a6a9a95757a442",
   "developmentBuild": false,
-  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling, physics-driven collapse playback through settling with gentle speed changes and 2x Fast Forward",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",

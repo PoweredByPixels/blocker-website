@@ -47,3 +47,5 @@ Build and publish Windows by default. Mac updates require an explicit user reque
 
 
 Current Windows release: c9e5f76, 02 Oct 2026. Full towers end automatically after one second of quiet; empty supply highlights loose blocks. Quieter edge stacking and corrected panorama mip/content seams. 33 PlayMode tests, 63 EditMode tests, Windows release and GPU lookdev passed. 195186380-byte ZIP, SHA256 0738b3e6ea6d91436842e19b3c4c37c43f5746207dfa66bd2fd470b0c8d18d61. Existing Mac preview retained.
+
+Current Windows release: e79dfcd, 02 Oct 2026. Adaptive collapse playback waits for settling, eases down with contact progress, then returns to normal; Fast Forward simulates at 2x without discarding the fall. 68 EditMode tests, 35 PlayMode tests, Windows release and GPU lookdev passed. 195187689-byte ZIP, SHA256 d6bfdd73d9fe906d625efbdeffe91fdc97eeeddfdd3077f999a6a9a95757a442. Existing Mac preview retained.
