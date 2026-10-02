@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-02-collapse-playback",
-  "sourceCommit": "e79dfcd",
+  "tag": "playtest-2026-10-02-wood-crates-height",
+  "sourceCommit": "be94519",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-02-e79dfcd.zip",
-  "bytes": 195187689,
-  "sha256": "d6bfdd73d9fe906d625efbdeffe91fdc97eeeddfdd3077f999a6a9a95757a442",
+  "file": "Blocker-Windows-x64-2026-10-02-be94519.zip",
+  "bytes": 195187992,
+  "sha256": "6feea20d3faeb176a85f5ea85f96755f53cc56e63482161674eb6187bb2d5c1e",
   "developmentBuild": false,
-  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling, physics-driven collapse playback through settling with gentle speed changes and 2x Fast Forward",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling, physics-driven collapse playback through settling with gentle speed changes and 2x Fast Forward, uniform wood tint and correct model changes on result towers, upside-down climbing crate placement, shared physics height measurements and eye-relative step hints",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",
