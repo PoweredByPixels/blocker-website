@@ -297,5 +297,24 @@
     "publishedAssetBytesMatch": true,
     "publishedDigestMatches": true,
     "readyToPublishUtc": "2026-10-02T14:28:15.673024+00:00"
+  },
+  "calmText20261002": {
+    "sourceCommit": "9dc3e18",
+    "tag": "playtest-2026-10-02-calm-text",
+    "bytes": 195023430,
+    "sha256": "4c463a43a1080d82d60b0b9780b3f4b05e1886f9bc4f6b34ea4116eeb2699950",
+    "playerFilesVerified": 184,
+    "editModePassed": 62,
+    "newContrastTests": 4,
+    "holdSeconds": 1.2,
+    "fadeSeconds": 0.9,
+    "manualContrastFeelVerified": false,
+    "windowsBuildPassed": true,
+    "macRebuilt": false,
+    "priorSceneCapturesPreserved": true,
+    "websiteChecksPassed": true,
+    "desktopAndMobileInspected": true,
+    "mobile390x844NoHorizontalOverflow": true,
+    "githubReleaseUploaded": true
   }
 }
