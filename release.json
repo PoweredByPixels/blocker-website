@@ -1,12 +1,12 @@
 {
-  "tag": "playtest-2026-10-03-height-modes",
-  "sourceCommit": "203c92a",
+  "tag": "playtest-2026-10-03-username-hover-y",
+  "sourceCommit": "795196e",
   "platform": "Windows x64",
-  "file": "Blocker-Windows-x64-2026-10-03-203c92a.zip",
-  "bytes": 195189435,
-  "sha256": "347848b7ed929756aba9fa7730092282080f20f9454897b0009e443f053c2816",
+  "file": "Blocker-Windows-x64-2026-10-03-795196e.zip",
+  "bytes": 195189578,
+  "sha256": "7b7f4636f0ff15d78f8f575e954b7ff98cbb35597a6af0b1e63a0cd24693bdd0",
   "developmentBuild": false,
-  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling, physics-driven collapse playback through settling with gentle speed changes and 2x Fast Forward, uniform wood tint and correct model changes on result towers, upside-down climbing crate placement, shared physics height measurements and eye-relative step hints, compact upper result sheets with the tower unobstructed, THIS RUN versus YOUR BEST, primary Retry and a tiny YOU badge, softer resolution-normalized frosting, context-sensitive closing line and support-loss wake-up without an added impulse, four smoothly transitioning building heights via Q/E and controller D-Pad, F wood pickup, paused crate input, saved stance with legacy save compatibility, R orientation clears placement offsets, actual-footprint support-plane overlap for lower-gap placement and saved-tower menu hover/side rails",
+  "contains": "Calm plaster atelier, near-window trees and soft wall foliage, baked shadowmask GI, matte ceiling, open crates, Shift sprint, settled decorative pile and compact tower results, calm automatic text contrast with 1.2 s hold and 0.9 s fade, sealed background stairwell with ascending ceiling and clean doorway, automatic full-tower completion, loose-piece silhouettes at empty supply, quieter edge stacks and seamless sun-aligned panorama sampling, physics-driven collapse playback through settling with gentle speed changes and 2x Fast Forward, uniform wood tint and correct model changes on result towers, upside-down climbing crate placement, shared physics height measurements and eye-relative step hints, compact upper result sheets with the tower unobstructed, THIS RUN versus YOUR BEST, primary Retry and a tiny YOU badge, softer resolution-normalized frosting, context-sensitive closing line and support-loss wake-up without an added impulse, four smoothly transitioning building heights via Q/Y and controller D-Pad, F wood pickup, paused crate input, saved stance with legacy save compatibility, R orientation clears placement offsets, actual-footprint support-plane overlap for lower-gap placement and saved-tower menu hover/side rails, shared frosted hover highlight for the main-menu username and edit pencil, E has no gameplay action",
   "macOS": {
     "tag": "playtest-2026-10-01-new-beginning",
     "sourceCommit": "9c6daf4",

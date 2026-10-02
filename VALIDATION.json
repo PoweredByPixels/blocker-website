@@ -367,5 +367,27 @@
     "websiteChecksPassed": true,
     "desktopAndMobileControlsInspected": true,
     "mobile390x844NoHorizontalOverflow": true
+  },
+  "usernameHoverAndYKey20261003": {
+    "sourceCommit": "795196e",
+    "tag": "playtest-2026-10-03-username-hover-y",
+    "usernameAndPencilHover": true,
+    "sharedHighlightAndClickArea": true,
+    "heightKeys": "Q/Y",
+    "woodPickup": "F/X",
+    "eHasNoGameplayAction": true,
+    "targetedKeyboardPlayModePassed": 1,
+    "previousFullSuiteCommit": "203c92a",
+    "previousEditModePassed": 68,
+    "previousPlayModePassed": 46,
+    "windowsBuildPassed": true,
+    "standaloneGpuLookdevPassed": true,
+    "playerFilesVerified": 184,
+    "bytes": 195189578,
+    "sha256": "7b7f4636f0ff15d78f8f575e954b7ff98cbb35597a6af0b1e63a0cd24693bdd0",
+    "nativeHoverVisuallyVerified": false,
+    "macRebuilt": false,
+    "desktopAndMobileControlsInspected": true,
+    "mobile390x844NoHorizontalOverflow": true
   }
 }
