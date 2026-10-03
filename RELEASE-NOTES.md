@@ -1,16 +1,18 @@
-# Blocker · Username hover and Q/Y height controls
+# Blocker · Four construction worlds
 
-Windows x64 · 03 October 2026 · source 795196e.
+Windows x64 · 03 October 2026 · source 2ce4d6f.
 
-- Your main-menu username and edit pencil share a rounded frosted hover highlight. The underline strengthens on hover, and the whole highlighted area opens the name editor. It fits the name width and leaves the welcome label and menu selection independent.
-- **Q lowers / Y raises** the view through Crawl, Crouch, Stand and Reach. **F** still picks up or swaps wood. **E has no gameplay action**, reducing accidental height changes near movement keys.
-- Controller mappings remain: D-Pad down/up changes height, X picks up wood, Y changes block orientation. R / controller Y clears placement offsets. Crate input remains paused.
-- Existing lower-gap placement fixes, saved-tower menu hover/rails, stance saving and older-save compatibility are retained.
+- Creative: freely build with wood against a toggleable Triumphal Arch, Cologne Cathedral or Eiffel Tower silhouette. G toggles the guide, B changes the landmark, Escape → Done evaluates coverage and outside construction from three views.
+- Wooden Railway: straights, left/right curves, bridge ramps and a little wooden locomotive. Tab cycles parts, click snaps to an open endpoint, R changes the attaching end, F removes/reuses, T starts/pauses the train.
+- Magnetic Tiles: transparent coloured squares and equilateral triangles with matching 15 cm edges. Tab changes shape, wheel chooses an edge, R folds in 90° steps, click connects and F removes.
+- Each world saves separately; Continue restores the construction. Q/Y view heights and F1 remain available. Tower keeps its physics and leaderboard. A combined world is planned for later.
 
-Validation: all four assemblies compiled for the hover change. The real-keyboard PlayMode regression was rerun and passed on the Q/Y update, including E doing nothing, height limits, F pickup, R offset reset and parked crate controls. The preceding height-mode release passed the full 68 EditMode / 46 PlayMode suite; the full suite was not repeated for these small UI/key changes. Windows release build and standalone GPU lookdev passed. All 184 packaged player files were verified by SHA-256 and ZIP CRC. Native username hover appearance remains a user playtest check.
+Validation: 92 EditMode tests and the full 51 PlayMode tests passed. After the timber-material correction, all six workshop PlayMode tests passed. Windows release build passed. Standalone GPU captures of all three guides, a 10-part railway with locomotive and a seven-part magnetic house were inspected. Save integrity and plastic shader support passed. The diagnostic camera capture was corrected after inspection; native IMGUI typography and subjective snap/control feel still need a client playtest. No claim of manual acceptance of those interactions.
 
-Extract the entire ZIP and start **Blocker.exe** with its data folder and DLLs alongside it. Controls, manifest and licenses are included. macOS remains the previous preview.
+All 184 player files were verified by SHA-256 and ZIP CRC.
 
-File: **Blocker-Windows-x64-2026-10-03-795196e.zip** · **195,189,578 bytes**.
+File: **Blocker-Windows-x64-2026-10-03-2ce4d6f.zip** · **195,221,803 bytes**.
 
-SHA-256: `7b7f4636f0ff15d78f8f575e954b7ff98cbb35597a6af0b1e63a0cd24693bdd0`
+SHA-256: `57d33079076c75b177a8475e5f719be663b7a0b1c64ceeb52dd4dfbb2677cf38`
+
+The previous macOS Tower preview is unchanged and does not contain these new modes. No Mac rebuild; awaiting on-device testing, not notarized.

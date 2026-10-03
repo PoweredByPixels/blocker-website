@@ -220,7 +220,7 @@
   },
   "calmAtelier20261002": {
     "startedUtc": "2026-10-02T13:09:34Z",
-    "validatedUtc": "2026-10-02T14:20:45.145328+00:00",
+    "validatedUtc": "2026-10-02T16:20:45.145328+02:00",
     "sourceAtStart": "f2f6705",
     "lightingRevision": 13,
     "editModePassed": 58,
@@ -296,7 +296,7 @@
     "githubReleaseUploaded": true,
     "publishedAssetBytesMatch": true,
     "publishedDigestMatches": true,
-    "readyToPublishUtc": "2026-10-02T14:28:15.673024+00:00"
+    "readyToPublishUtc": "2026-10-02T16:28:15.673024+02:00"
   },
   "calmText20261002": {
     "sourceCommit": "9dc3e18",
@@ -389,5 +389,25 @@
     "macRebuilt": false,
     "desktopAndMobileControlsInspected": true,
     "mobile390x844NoHorizontalOverflow": true
+  },
+  "constructionWorlds20261003": {
+    "galleryEnlargementChecked": true,
+    "staticChecksPassed": true,
+    "localMobile390x844NoHorizontalOverflow": true,
+    "sourceCommit": "2ce4d6f",
+    "newRendererCaptures": 3,
+    "localDesktopDownloadDialogChecked": true,
+    "localBrowserWarningsOrErrors": 0,
+    "githubAssetDigestAndSizeVerified": true,
+    "tag": "playtest-2026-10-03-construction-worlds",
+    "leaderboardTestsPassed": 5,
+    "publication": "Ready for Git continuous deployment; live verification follows push",
+    "windowsBytes": 195221803,
+    "sha256": "57d33079076c75b177a8475e5f719be663b7a0b1c64ceeb52dd4dfbb2677cf38",
+    "screenshots": [
+      "artifacts/workshop-download-desktop.png",
+      "artifacts/workshop-download-mobile.png"
+    ],
+    "macUnchanged": true
   }
 }
