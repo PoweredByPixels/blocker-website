@@ -476,5 +476,32 @@
     "escapeRestoresFocus": true,
     "adapterGalleryEnlargementPassed": true,
     "browserWarningsOrErrors": 0
+  },
+  "partWheel20261003": {
+    "sourceCommit": "e6a6554",
+    "releaseTag": "playtest-2026-10-03-part-wheel",
+    "editModePassed": 103,
+    "playModePassed": 69,
+    "windowsBuildPassed": true,
+    "standaloneWorkshopPassed": true,
+    "automatedPlayerExitCode": 0,
+    "railSectors": 9,
+    "magnetSectors": 4,
+    "nativeUiVisuallyVerified": false,
+    "nativeUiCaptureLimitation": "Hidden-player ScreenCapture output was black; not used as evidence or public artwork",
+    "interactiveWindowsExitCrashFixed": false,
+    "macUnchanged": true,
+    "playerFilesVerified": 184,
+    "bytes": 195239703,
+    "sha256": "a20abc6993c47dfcb3da0321828f02c9d8aa0406365b2472727097b248949243",
+    "websiteChecksPassed": true,
+    "desktopAndMobileInspected": true,
+    "githubReleasePublished": true,
+    "leaderboardTestsPassed": 5,
+    "mobile390x844NoHorizontalOverflow": true,
+    "downloadDialogFitsAndScrolls": true,
+    "escapeRestoresFocus": true,
+    "browserWarningsOrErrors": 0,
+    "githubAssetDigestAndSizeVerified": true
   }
 }
