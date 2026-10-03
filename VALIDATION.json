@@ -401,13 +401,17 @@
     "githubAssetDigestAndSizeVerified": true,
     "tag": "playtest-2026-10-03-construction-worlds",
     "leaderboardTestsPassed": 5,
-    "publication": "Ready for Git continuous deployment; live verification follows push",
+    "publication": "Published via Git CD; deployed commit b7386cc ready, public download HTTP 200 and exact 195221803 bytes verified",
     "windowsBytes": 195221803,
     "sha256": "57d33079076c75b177a8475e5f719be663b7a0b1c64ceeb52dd4dfbb2677cf38",
     "screenshots": [
       "artifacts/workshop-download-desktop.png",
-      "artifacts/workshop-download-mobile.png"
+      "artifacts/workshop-download-mobile.png",
+      "artifacts/workshop-live-download.png"
     ],
-    "macUnchanged": true
+    "macUnchanged": true,
+    "netlifyDeployId": "6ac0f8031a24fd0008faf300",
+    "liveDownloadDialogChecked": true,
+    "liveBrowserWarningsOrErrors": 0
   }
 }
