@@ -7,7 +7,7 @@
 
 [[redirects]]
   from = "/download/windows"
-  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-03-construction-worlds/Blocker-Windows-x64-2026-10-03-2ce4d6f.zip"
+  to = "https://github.com/PoweredByPixels/blocker-website/releases/download/playtest-2026-10-03-physical-construction/Blocker-Windows-x64-2026-10-03-f1a6ba8.zip"
   status = 302
   force = true
 

@@ -1,18 +1,22 @@
-# Blocker · Four construction worlds
+# Blocker · Physical construction
 
-Windows x64 · 03 October 2026 · source 2ce4d6f.
+Windows x64 · 03 October 2026 · source f1a6ba8.
 
-- Creative: freely build with wood against a toggleable Triumphal Arch, Cologne Cathedral or Eiffel Tower silhouette. G toggles the guide, B changes the landmark, Escape → Done evaluates coverage and outside construction from three views.
-- Wooden Railway: straights, left/right curves, bridge ramps and a little wooden locomotive. Tab cycles parts, click snaps to an open endpoint, R changes the attaching end, F removes/reuses, T starts/pauses the train.
-- Magnetic Tiles: transparent coloured squares and equilateral triangles with matching 15 cm edges. Tab changes shape, wheel chooses an edge, R folds in 90° steps, click connects and F removes.
-- Each world saves separately; Continue restores the construction. Q/Y view heights and F1 remain available. Tower keeps its physics and leaderboard. A combined world is planned for later.
+- Railway: short / standard / long straights (7.5 / 15 / 30 cm), 45° curves (eight form a circle), ramps and left/right switches. Eight starting rotations. Visible 1.8 mm end gaps, bevelled edges and recessed wheel grooves.
+- Each rail is a dynamic body connected with about 5° of angular play. Hold right mouse / controller LT to pull anywhere in the connected track. C changes the entry connector, K sets an aimed switch, F removes/reuses a piece, T starts/pauses the train. Rail connections hold under load and detach with F; the locomotive follows the moving rail path.
+- Same-gender ends get a separate 2 cm adapter automatically: turquoise double-female for two male ends, orange double-male for two female ends. Preview and placement include adapter collisions and the building boundary. Existing aligned 2 cm gaps can also be bridged.
+- Magnetic tiles: transparent square, equilateral, tall and wide isosceles triangles with denser rims, internal ribs and embedded edge magnets. Shift + wheel gives 5° fold steps. Flexible or unequal-edge matches are amber in the preview. Unsupported tiles fold under gravity; overloaded links can release.
+- Sunlight through magnetic tiles colours the floor with a moving polygon filter, combining overlapping colours and respecting opaque blockers. This is an artistic floor transmission approximation, not spectral refraction or full coloured GI.
+- Creative landmark guides, independent world saves, Q/Y view heights and F1 remain available. The combined world is planned for later.
 
-Validation: 92 EditMode tests and the full 51 PlayMode tests passed. After the timber-material correction, all six workshop PlayMode tests passed. Windows release build passed. Standalone GPU captures of all three guides, a 10-part railway with locomotive and a seven-part magnetic house were inspected. Save integrity and plastic shader support passed. The diagnostic camera capture was corrected after inspection; native IMGUI typography and subjective snap/control feel still need a client playtest. No claim of manual acceptance of those interactions.
+Validation: all 100 EditMode and 64 PlayMode tests passed. Windows release build and standalone GPU checks passed. The player verified a pulled 11-piece railway (10 joints retained, 5.87 cm displacement), both adapter genders (six bodies/four joints), and an unsupported magnetic arm falling from 15.35 cm to 0.15 cm. Actual renderer captures were visually reviewed. Arranged magnetic-house/detail captures are material studies, not proof that those constructions stand freely. Native IMGUI controls and subjective interaction still require a client playtest.
 
-All 184 player files were verified by SHA-256 and ZIP CRC.
+Known issue: the previously reported Windows crash during interactive closing is still under investigation. The automated player exit completed cleanly; it does not establish that the interactive crash is fixed. Existing saves are preserved, but old 90° railway layouts are not automatically rebuilt into 45° layouts.
 
-File: **Blocker-Windows-x64-2026-10-03-2ce4d6f.zip** · **195,221,803 bytes**.
+All 184 player files verified by SHA-256 and ZIP CRC.
 
-SHA-256: `57d33079076c75b177a8475e5f719be663b7a0b1c64ceeb52dd4dfbb2677cf38`
+File: **Blocker-Windows-x64-2026-10-03-f1a6ba8.zip** · **195,236,548 bytes**.
 
-The previous macOS Tower preview is unchanged and does not contain these new modes. No Mac rebuild; awaiting on-device testing, not notarized.
+SHA-256: `3230f332c2eab599d559803d1f88cb3e688fe03e7d1cf1e73a35d5162532d766`
+
+The previous macOS Tower preview is unchanged. No Mac rebuild; awaiting on-device testing, not notarized.

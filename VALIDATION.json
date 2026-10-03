@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f \u2014 already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,8 +172,8 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
   },
   "towerSave20261002": {
     "sourceCommit": "f2f6705",
@@ -413,5 +413,68 @@
     "netlifyDeployId": "6ac0f8031a24fd0008faf300",
     "liveDownloadDialogChecked": true,
     "liveBrowserWarningsOrErrors": 0
+  },
+  "physicalConstruction20261003": {
+    "sourceCommit": "f1a6ba8",
+    "tag": "playtest-2026-10-03-physical-construction",
+    "windowsBytes": 195236548,
+    "sha256": "3230f332c2eab599d559803d1f88cb3e688fe03e7d1cf1e73a35d5162532d766",
+    "playerFilesVerified": 184,
+    "editModePassed": 100,
+    "playModePassed": 64,
+    "windowsBuildPassed": true,
+    "standaloneGpuChecksPassed": true,
+    "worldCapturesVisuallyReviewed": true,
+    "railDragDisplacementMetres": 0.0587,
+    "railDragJointsRetained": 10,
+    "adapterExampleParts": 6,
+    "adapterExampleJoints": 4,
+    "magnetTipBeforeMetres": 0.1535,
+    "magnetTipAfterMetres": 0.0015,
+    "transmissionVisibleOnFloor": true,
+    "automatedPlayerExitCode": 0,
+    "interactiveWindowsExitCrashFixed": false,
+    "nativeImGuiManuallyVerified": false,
+    "macUnchanged": true,
+    "screenshots": [
+      {
+        "source": "workshop-creative-eiffel.png",
+        "asset": "workshop-creative-eiffel-f1a6ba8.webp",
+        "sourceSha256": "a24efc7c384627a1c320b51a37048b07e824c2f7f0e07e0972862e35e62449d5",
+        "bytes": 68662
+      },
+      {
+        "source": "workshop-railway.png",
+        "asset": "workshop-railway-f1a6ba8.webp",
+        "sourceSha256": "b3e737403e089e113cfd9d62968c39d0ae056f5e169ab82ecbda6377e10da6f4",
+        "bytes": 67894
+      },
+      {
+        "source": "workshop-magnetic-house.png",
+        "asset": "workshop-magnetic-house-f1a6ba8.webp",
+        "sourceSha256": "b141258927e67a76c763f713c1e46c1fda47f6739aa7620caa56d0fe94d092b6",
+        "bytes": 65548
+      },
+      {
+        "source": "workshop-mixed-straights-adapters.png",
+        "asset": "workshop-mixed-straights-adapters-f1a6ba8.webp",
+        "sourceSha256": "d10339066e2b5cf8aaf898b21629c5ae82a0fa44e0cf944b72791a437d51843b",
+        "bytes": 65930
+      },
+      {
+        "source": "workshop-magnetic-light.png",
+        "asset": "workshop-magnetic-light-f1a6ba8.webp",
+        "sourceSha256": "be9e5d27d39d8cfd78ea9785ef6bf545d5a4d92a1067fb22c343d6cb1e989a5d",
+        "bytes": 62752
+      }
+    ],
+    "websiteChecksPassed": true,
+    "desktopAndMobileInspected": true,
+    "leaderboardTestsPassed": 5,
+    "mobile390x844NoHorizontalOverflow": true,
+    "downloadDialogFitsAndScrolls": true,
+    "escapeRestoresFocus": true,
+    "adapterGalleryEnlargementPassed": true,
+    "browserWarningsOrErrors": 0
   }
 }
