@@ -1,19 +1,18 @@
-# Blocker · Part wheel
+# Blocker · Magnetic polish
 
-Windows x64 · 03 October 2026 · source e6a6554.
+Windows x64 · 04 October 2026 · source 2459a71.
 
-- Hold LT, choose with the right stick, release LT to select. A flat wheel gives direct access to all nine railway pieces or four magnetic shapes, with no submenus. Release at center to keep the current piece.
-- Mouse / keyboard: hold V or middle mouse, move toward a piece and release. Tab still cycles pieces; railway lengths are grouped short / standard / long.
-- Camera movement, walking, stance changes, placing, removal and rotation are consumed while choosing. Physics continues. Pause, F1 and focus loss cancel; the opener must be released before reopening.
-- Controller track grip moves to holding the right-stick button. The same button + LB/RB gives fine magnetic folding. Mouse track grip, Shift-wheel fine folding and Tower controls remain as before.
-- Physical railway pieces, coloured same-end adapters, flexible magnetic joints, floor transmission and independent world saves remain available.
+- Magnetic rims and physical collision shells are now 15 mm thick at a 15 cm square edge. Top-face connection pivots support upright and gently tilted tiles. Flat floor tiles extend along all four edges.
+- Damped, finite magnetic holding torque supports a square wall and a triangle after a small disturbance. Heavy unsupported arms still fold/fall; joints can break. Holding state survives Continue. This approximates magnets rather than simulating individual poles.
+- Acrylic PBR preserves glossy highlights on transparent faces. A subtle scratch normal was created with Imagegen. Sunlight rim glow and coloured floor transmission are restrained.
+- The wheel is now a complete pie with fixed dividers and actual cached 3D part previews. No rotated scaled IMGUI matrices. Existing LT/right-stick/release and V/middle-mouse controls remain; the full action inventory is included in CONTROL-ACTIONS.md.
 
-Validation: 103 EditMode and 69 PlayMode tests passed, including five controller / keyboard / mouse selection and cancellation cases. Windows build and standalone workshop GPU / physics checks passed. All 184 player files verified by SHA-256 and ZIP CRC. The hidden player's direct interface screenshots were black, so native radial-menu appearance and subjective controller feel still need a client playtest.
+Validation: 103 EditMode and 72 PlayMode cases passed. See VALIDATION.json for standalone and native wheel evidence. Initial checks caught an invalid texture import shape and a fine-fold floor intersection; both were fixed before qualification.
 
-Known issue: the previously reported interactive Windows closing crash remains unresolved. This automated player exited cleanly; that does not establish the interactive crash is fixed.
+Known issue: the previously reported interactive Windows closing crash remains unresolved. A clean automated player exit does not establish that it is fixed.
 
-File: **Blocker-Windows-x64-2026-10-03-e6a6554.zip** · **195,239,703 bytes**.
+File: **Blocker-Windows-x64-2026-10-04-2459a71.zip** · **195,956,828 bytes**.
 
-SHA-256: `a20abc6993c47dfcb3da0321828f02c9d8aa0406365b2472727097b248949243`
+SHA-256: `2fde09469c762617c637339e3a728418e0fc4a4620dc7694227912c741592d14`
 
-The previous macOS Tower preview is unchanged. No Mac rebuild; awaiting on-device testing, not notarized.
+The existing Mac preview and metadata remain unchanged; no Mac rebuild.
