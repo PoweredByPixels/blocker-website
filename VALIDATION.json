@@ -795,6 +795,14 @@
     "limitations": [
       "A previously tangled construction is not flattened or repaired; separated legacy links are skipped.",
       "Finite joint strength and hand feel still need player feedback on large irregular layouts."
-    ]
+    ],
+    "publication": {
+      "netlifyDeployId": "6ac2ca87b076ff000997fe9f",
+      "state": "ready",
+      "websiteCommit": "55b1bc951b829069844ac5f6380dc87502fc2656",
+      "livePageUsesNewRelease": true,
+      "downloadHttpStatus": 200,
+      "downloadBytes": 195993097
+    }
   }
 }
