@@ -851,5 +851,41 @@
       "windowsUrl": "playtest-2026-10-05-magnetic-connections/Blocker-Windows-x64-2026-10-05-cab5596.zip",
       "macDownloadUnchanged": true
     }
+  },
+  "magneticLongTriangleAnchors20261005": {
+    "sourceCommit": "b12cad8",
+    "date": "2026-10-05",
+    "editModePassed": 109,
+    "affectedPlayModePassed": 9,
+    "nativeDynamicLongLeg": {
+      "settled": true,
+      "restored": true,
+      "links": 3,
+      "magnetsPerLeg": 3,
+      "twoStandardTiles": true,
+      "visualInspection": true,
+      "images": [
+        "workshop-magnetic-long-leg-anchors.png",
+        "workshop-magnetic-long-leg-continued.png"
+      ]
+    },
+    "cubeRegressionRetainsLinks": 14,
+    "usualWindowsPlayerUpdated": true,
+    "package": {
+      "file": "Blocker-Windows-x64-2026-10-05-b12cad8.zip",
+      "bytes": 195997194,
+      "sha256": "32f5e957eafd3fa0151554f486dd2001c61711339e6e8c96488232bb31f135f9",
+      "verifiedPlayerFiles": 184
+    },
+    "tag": "playtest-2026-10-05-long-triangle-anchors",
+    "interactiveWindowsShutdownCrashFixed": false,
+    "macOSChanged": false,
+    "websiteChecks": {
+      "static": true,
+      "leaderboardTestsPassed": 5,
+      "desktop1280x720": true,
+      "mobile390x844": true,
+      "macDownloadUnchanged": true
+    }
   }
 }
