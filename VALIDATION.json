@@ -749,5 +749,52 @@
     "slot-racing-controller.pngSha256": "347ee7e0a11c928300b7e080d5e36eb300dfda43373624f95499ec327d1f2312",
     "marble-floor-guides.pngSha256": "d2e2f156d35e025d3ea7b592a90364b1cc3e49ed026342edc9f654a9a84489d4",
     "githubAssetDigestAndSizeVerified": true
+  },
+  "railwaySafety20261004": {
+    "sourceCommit": "9e86b67",
+    "date": "2026-10-04",
+    "editMode": {
+      "passed": 108,
+      "failed": 0
+    },
+    "affectedPlayModeBeforeFinalMesh": {
+      "passed": 42,
+      "failed": 0
+    },
+    "finalRegressionPlayMode": {
+      "passed": 13,
+      "failed": 0,
+      "newRailwayCases": 8
+    },
+    "windowsBuild": "Builds/Windows/Blocker-Railway-Safety/Blocker.exe",
+    "usualWindowsPlayerUpdated": true,
+    "nativeRailway": {
+      "exitCode": 0,
+      "dragDisplacementMeters": 0.0947,
+      "retainedJoints": 10,
+      "bothAdapterGenders": true,
+      "bridgeHeightMeters": 0.1698,
+      "supports": 7,
+      "movingSupportGhosts": true,
+      "visualInspection": true,
+      "images": [
+        "workshop-railway-detail.png",
+        "workshop-moving-bridge-supports.png",
+        "workshop-moved-bridge-settled.png"
+      ]
+    },
+    "package": {
+      "file": "Blocker-Windows-x64-2026-10-04-9e86b67.zip",
+      "bytes": 195993097,
+      "sha256": "75b35f217ef37f533aa4b24f6c950b87b01c6e89cf27fdfa92f2251ce65546c7",
+      "verifiedPlayerFiles": 184
+    },
+    "tag": "playtest-2026-10-04-railway-safety",
+    "interactiveWindowsShutdownCrashFixed": false,
+    "macOSChanged": false,
+    "limitations": [
+      "A previously tangled construction is not flattened or repaired; separated legacy links are skipped.",
+      "Finite joint strength and hand feel still need player feedback on large irregular layouts."
+    ]
   }
 }
