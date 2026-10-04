@@ -1,20 +1,19 @@
-# Blocker · Acrylic visual reference
+# Blocker · Workshop controls and physical supports
 
-Windows x64 · 04 October 2026 · source bd39159.
+Windows x64 · 04 October 2026 · source 2f903f6.
 
-The user-supplied render guides the acrylic material appearance. All tile forms, dimensions, colliders, snapping and physical parameters are preserved.
+- Wheel selects railway or magnetic pieces directly; the divided 3D wheel and Tab remain available.
+- Magnetic Q selects the own edge, Shift-wheel selects the target edge or rotates a free floor tile, and R cycles supported hinge poses including triangle braces. Ctrl-Q lowers stance in Magnets.
+- F selects a magnetic tile while the original body and joints remain live. Click commits the new pose to the same tile. Escape, save, focus loss, F1 and a different piece selection cancel without deleting it. Shift-F explicitly removes.
+- Railway Shift-wheel selects an entry, Ctrl-wheel reverses the physical grooved faces, C holds a force-driven drag, Shift-F sets a switch and T runs/pauses the train. Reversed geometry and shared connector pivots survive saves.
+- New loop closures must align without pulling mismatched ends together. A same-end connector requires the actual 2 cm adapter gap. Ramps and raised track receive separate wooden support blocks; rails remain dynamic with their existing angular play.
 
-- Clearer central faces and finer internal reinforcement, with saturated blue, red, amber, green and turquoise colours.
-- Angle-dependent absorption gives moulded frames deeper coloured sides. This is an optical-depth approximation, not ray-traced refraction.
-- Higher dielectric polish and softened frame normals catch narrow glancing highlights. Normal shading does not change geometry. The existing Imagegen scratch normal is reused at lower strength; sunlight rim emission remains restrained.
-- Existing muted coloured floor transmission and the complete 3D part wheel remain.
+Qualification: 103 EditMode and 83 PlayMode tests passed, followed by 37 targeted tests after the final yaw/cache/HUD refinements. Windows build and standalone workshop run passed, including a dynamic supported bridge, connected-route dragging, adapters, magnetic overload and materials. Automated player exit was 0. Manual control feel awaits player feedback; complex loaded constructions remain a playtest subject.
 
-Qualification: 6 targeted material/wheel PlayMode regressions passed, Windows build passed, standalone workshop shader/physics run passed with exit 0, near material capture inspected. Previous full 103 EditMode / 72 PlayMode qualification remains recorded; it was not repeated for this material-only pass. The arranged material capture is not proof of tower stability.
+Known issue: the earlier interactive Windows closing crash has not been established as fixed. Automated exit 0 is not proof of a fix.
 
-Known issue: the previously reported interactive Windows closing crash remains unresolved. Automated exit 0 does not establish a fix.
+File: **Blocker-Windows-x64-2026-10-04-2f903f6.zip** · **195,963,884 bytes**.
 
-File: **Blocker-Windows-x64-2026-10-04-bd39159.zip** · **195,957,842 bytes**.
+SHA-256: `40f957ae02b6b1c4b420cf0639b722f4b089010c8044900b6ef8f2c078ada85a`
 
-SHA-256: `82185570b0ff424e6344c9485c7a40a0c3b96a7202ac7aa26cec0a1e051b1cb2`
-
-The existing Mac preview and metadata remain unchanged; no Mac rebuild.
+Mac preview and its metadata are unchanged; no Mac rebuild.

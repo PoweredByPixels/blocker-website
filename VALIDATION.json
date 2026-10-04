@@ -592,5 +592,29 @@
     "escapeRestoresFocus": true,
     "browserWarningsOrErrors": 0,
     "githubAssetDigestAndSizeVerified": true
+  },
+  "workshopControls20261004": {
+    "sourceCommit": "2f903f6",
+    "editModePassed": 103,
+    "playModePassed": 83,
+    "finalTargetedPlayModePassed": 37,
+    "windowsBuildPassed": true,
+    "standaloneWorkshopPassed": true,
+    "automaticBridgeSupportPassed": true,
+    "automatedPlayerExitCode": 0,
+    "manualInputFeelVerified": false,
+    "knownInteractiveWindowsExitCrashFixed": false,
+    "macRebuilt": false,
+    "originalProjectWritten": false,
+    "zipFile": "Blocker-Windows-x64-2026-10-04-2f903f6.zip",
+    "zipBytes": 195963884,
+    "zipSha256": "40f957ae02b6b1c4b420cf0639b722f4b089010c8044900b6ef8f2c078ada85a",
+    "playerFilesVerified": 184,
+    "githubReleasePublished": true,
+    "bridgeCaptureSha256": "f1fa3e53e62021817a69908b0cc534d6c0c38b3d645bed9a6b76fbbbfba5ba5a",
+    "websiteDesktopMobilePassed": true,
+    "websiteChecksPassed": true,
+    "bridgeCaptureVisuallyInspected": true,
+    "githubAssetDigestAndSizeVerified": true
   }
 }
