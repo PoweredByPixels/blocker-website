@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f \u2014 already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,8 +172,8 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z\u201315:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z\u201315:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
   },
   "towerSave20261002": {
     "sourceCommit": "f2f6705",
@@ -692,5 +692,62 @@
     "catalogueIsFrozenMaterialStudy": true,
     "courseCaptureSha256": "92c15d72c901a83d1fccfff06f999a571d7556ca879a1b4011069e8891c43e95",
     "catalogCaptureSha256": "92e8a0e08d651b7ddca1030ffc21e48a8c75210efa21d9979734ba346b211ee2"
+  },
+  "slotRacingTwoLanesAndMarbleHelpers20261004": {
+    "status": "built-tested-native-render-reviewed",
+    "sourceCommit": "c13e0db",
+    "physicsSourceCommit": "8968685",
+    "editModePassed": 108,
+    "fullRegressionBeforeMarbleHelpers": {
+      "total": 109,
+      "passed": 108,
+      "failed": 1,
+      "failure": "Legacy car pose was not synchronized after migration; corrected and retested"
+    },
+    "affectedPlayModePassedBeforeControllerMapping": 66,
+    "controllerAndMarbleRetest": {
+      "total": 24,
+      "passed": 23,
+      "failed": 1,
+      "failure": "Camera-based marble grip still had railway-only guard; corrected"
+    },
+    "finalControlTestsPassed": 2,
+    "windowsBuildPassed": true,
+    "automatedPlayerExitCode": 0,
+    "nativeCircuitPassed": true,
+    "nativeSavePassed": true,
+    "nativeMarbleDownwardPreviewPassed": true,
+    "lanes": 2,
+    "cars": 2,
+    "nativeCircuitPieces": 12,
+    "nativeCircuitConnections": 12,
+    "nativePeakDriftDegrees": 10.05,
+    "carsAndRoadsDynamic": true,
+    "groundCurveColliders": 14,
+    "groundCurveRenderers": 6,
+    "guideQueries": 10000,
+    "guideQueriesMilliseconds": 7.83,
+    "guideManagedAllocationBytes": 0,
+    "guideGraphRebuilds": 0,
+    "mainMenuImmediateMilliseconds": 2.68,
+    "performanceNumbersAreEditorMicrobenchmarksNotPlayerFrameRates": true,
+    "marbleFloorGuidesVisuallyInspected": true,
+    "nativeControllersVisuallyInspected": true,
+    "manualInputFeelVerified": false,
+    "knownInteractiveWindowsExitCrashFixed": false,
+    "macRebuilt": false,
+    "originalProjectWritten": false,
+    "userClientOverwrittenWhileRunning": false,
+    "usualPlayerUpdatedAfterNoClientsConfirmed": true,
+    "zipFile": "Blocker-Windows-x64-2026-10-04-c13e0db.zip",
+    "zipBytes": 195990149,
+    "zipSha256": "298c3ab269ac6ac4b6402a81f1dc7c827482e5a44510534100e15a2477f9cdce",
+    "playerFilesVerified": 184,
+    "githubReleasePublished": true,
+    "websiteChecksPassed": true,
+    "currentPublicRelease": "playtest-2026-10-04-two-lanes",
+    "slot-racing-controller.pngSha256": "347ee7e0a11c928300b7e080d5e36eb300dfda43373624f95499ec327d1f2312",
+    "marble-floor-guides.pngSha256": "d2e2f156d35e025d3ea7b592a90364b1cc3e49ed026342edc9f654a9a84489d4",
+    "githubAssetDigestAndSizeVerified": true
   }
 }
