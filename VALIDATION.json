@@ -36,7 +36,7 @@
     "artifacts/live-mobile.jpg",
     "artifacts/live-download.jpg"
   ],
-  "gameBuild": "223255f — already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
+  "gameBuild": "223255f â€” already validated Windows playtest, not a new Unity build; legacy Builder name-dialog bug documented in release notes",
   "gameSourcesModified": false,
   "unityOrPlayerLaunched": false,
   "analyticsAdded": false,
@@ -172,8 +172,8 @@
     "macRuntimeTested": false,
     "appleNotarized": false,
     "releaseTag": "playtest-2026-10-01-new-beginning",
-    "windowsUnityLogUtc": "2026-10-01T15:57:00Z–15:57:50Z",
-    "macUnityLogUtc": "2026-10-01T15:59:21Z–15:59:52Z"
+    "windowsUnityLogUtc": "2026-10-01T15:57:00Zâ€“15:57:50Z",
+    "macUnityLogUtc": "2026-10-01T15:59:21Zâ€“15:59:52Z"
   },
   "towerSave20261002": {
     "sourceCommit": "f2f6705",
@@ -803,6 +803,53 @@
       "livePageUsesNewRelease": true,
       "downloadHttpStatus": 200,
       "downloadBytes": 195993097
+    }
+  },
+  "magneticConnections20261005": {
+    "sourceCommit": "cab5596",
+    "date": "2026-10-05",
+    "editMode": {
+      "passed": 108,
+      "failed": 0
+    },
+    "affectedPlayMode": {
+      "passed": 40,
+      "failed": 0
+    },
+    "finalJointPlayMode": {
+      "passed": 5,
+      "failed": 0
+    },
+    "windowsBuild": "Builds/Windows/Blocker-Magnetic-Connections/Blocker.exe",
+    "usualWindowsPlayerUpdated": true,
+    "nativeMagnetic": {
+      "exitCode": 0,
+      "settled": true,
+      "restored": true,
+      "dynamicBodies": true,
+      "visualInspection": true,
+      "images": [
+        "workshop-magnetic-lid-preview.png",
+        "workshop-magnetic-cuboid-extension.png",
+        "workshop-magnetic-cuboid-continued.png"
+      ]
+    },
+    "package": {
+      "file": "Blocker-Windows-x64-2026-10-05-cab5596.zip",
+      "bytes": 195995859,
+      "sha256": "d8be55d993c63905b452d4891ed633931878784a865cd3a1ec0a187ca989d924",
+      "verifiedPlayerFiles": 184
+    },
+    "tag": "playtest-2026-10-05-magnetic-connections",
+    "interactiveWindowsShutdownCrashFixed": false,
+    "macOSChanged": false,
+    "websiteChecks": {
+      "static": true,
+      "leaderboardTestsPassed": 5,
+      "desktop1280x720": true,
+      "mobile390x844": true,
+      "windowsUrl": "playtest-2026-10-05-magnetic-connections/Blocker-Windows-x64-2026-10-05-cab5596.zip",
+      "macDownloadUnchanged": true
     }
   }
 }
