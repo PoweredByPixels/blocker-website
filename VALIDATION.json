@@ -616,5 +616,42 @@
     "websiteChecksPassed": true,
     "bridgeCaptureVisuallyInspected": true,
     "githubAssetDigestAndSizeVerified": true
+  },
+  "additionalMagneticTiles20261004": {
+    "sourceCommit": "e66c31b",
+    "editModePassed": 106,
+    "playModePassed": 86,
+    "windowsBuildPassed": true,
+    "standaloneWorkshopPassed": true,
+    "automatedPlayerExitCode": 0,
+    "magneticCatalogCount": 6,
+    "rectangleMetres": [
+      0.15,
+      0.075
+    ],
+    "basePlateMetres": [
+      0.3,
+      0.3
+    ],
+    "magneticThicknessMetres": 0.015,
+    "saveCompatibilityPassed": true,
+    "manualInputFeelVerified": false,
+    "knownInteractiveWindowsExitCrashFixed": false,
+    "macRebuilt": false,
+    "originalProjectWritten": false,
+    "zipFile": "Blocker-Windows-x64-2026-10-04-e66c31b.zip",
+    "zipBytes": 195964620,
+    "zipSha256": "510f5a48b5ec256d7755019615f7da00b9437e3cb809aafff715981e1f0e85e4",
+    "playerFilesVerified": 184,
+    "githubReleasePublished": true,
+    "additionalTilesCaptureSha256": "343863770bc7fa0420c6c17eeff947e0282c4f4c52aad2ecddbed18a6f6dc9af",
+    "additionalTilesCaptureVisuallyInspected": true,
+    "radialSelectionInputTestsPassed": true,
+    "radialScreenCaptureVisuallyVerified": false,
+    "websiteChecksPassed": true,
+    "websiteDesktopMobilePassed": true,
+    "mobile390x844NoHorizontalOverflow": true,
+    "browserWarningsOrErrors": 0,
+    "githubAssetDigestAndSizeVerified": true
   }
 }

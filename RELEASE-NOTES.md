@@ -1,19 +1,18 @@
-# Blocker · Workshop controls and physical supports
+# Blocker · Two additional magnetic pieces
 
-Windows x64 · 04 October 2026 · source 2f903f6.
+Windows x64 · 04 October 2026 · source e66c31b.
 
-- Wheel selects railway or magnetic pieces directly; the divided 3D wheel and Tab remain available.
-- Magnetic Q selects the own edge, Shift-wheel selects the target edge or rotates a free floor tile, and R cycles supported hinge poses including triangle braces. Ctrl-Q lowers stance in Magnets.
-- F selects a magnetic tile while the original body and joints remain live. Click commits the new pose to the same tile. Escape, save, focus loss, F1 and a different piece selection cancel without deleting it. Shift-F explicitly removes.
-- Railway Shift-wheel selects an entry, Ctrl-wheel reverses the physical grooved faces, C holds a force-driven drag, Shift-F sets a switch and T runs/pauses the train. Reversed geometry and shared connector pivots survive saves.
-- New loop closures must align without pulling mismatched ends together. A same-end connector requires the actual 2 cm adapter gap. Ramps and raised track receive separate wooden support blocks; rails remain dynamic with their existing angular play.
+- Half-square rectangle: 15 × 7.5 cm, two magnets on each long edge and one on each short edge.
+- Large base plate: 30 × 30 cm, twice the square side length and four times its area, with four magnets per edge.
+- Both retain 15 mm rim thickness, clear acrylic materials, interior cross/diamond reinforcement, coloured floor transmission and dynamic physics. Mass follows area; floor placement and connections use the existing system.
+- Wheel / Tab cycling and the six-sector radial menu include both parts with actual 3D previews. Existing save IDs are preserved and Continue restores new shapes and joints.
 
-Qualification: 103 EditMode and 83 PlayMode tests passed, followed by 37 targeted tests after the final yaw/cache/HUD refinements. Windows build and standalone workshop run passed, including a dynamic supported bridge, connected-route dragging, adapters, magnetic overload and materials. Automated player exit was 0. Manual control feel awaits player feedback; complex loaded constructions remain a playtest subject.
+Qualification: 106 EditMode and 86 PlayMode tests passed, including new dimensions, magnet pitch, mass, floor connections, six-sector selection and save/Continue. Windows build and standalone workshop run passed; the actual renderer capture of both new parts was inspected; six-sector selection was verified through input tests. Manual input feel awaits player feedback.
 
-Known issue: the earlier interactive Windows closing crash has not been established as fixed. Automated exit 0 is not proof of a fix.
+Known issue: the earlier interactive Windows closing crash has not been established as fixed; automated exit 0 does not prove a fix.
 
-File: **Blocker-Windows-x64-2026-10-04-2f903f6.zip** · **195,963,884 bytes**.
+File: **Blocker-Windows-x64-2026-10-04-e66c31b.zip** · **195,964,620 bytes**.
 
-SHA-256: `40f957ae02b6b1c4b420cf0639b722f4b089010c8044900b6ef8f2c078ada85a`
+SHA-256: `510f5a48b5ec256d7755019615f7da00b9437e3cb809aafff715981e1f0e85e4`
 
 Mac preview and its metadata are unchanged; no Mac rebuild.
